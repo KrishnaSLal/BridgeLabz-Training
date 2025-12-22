@@ -62,6 +62,7 @@ public class EmployeeBonusCalculator {
 
             System.out.printf("%-5d %-12.2f %-8.0f %-12.2f %-12.2f%n", (i + 1), oldData[i][0], oldData[i][1],newData[i][1],newData[i][0]);
         }
+		System.out.println("-------------------------------------------------");
         System.out.printf("%-5s %-12.2f %-8s %-12.2f %-12.2f%n", "Total", totalOldSalary, "", totalBonus, totalNewSalary);
 
     }
