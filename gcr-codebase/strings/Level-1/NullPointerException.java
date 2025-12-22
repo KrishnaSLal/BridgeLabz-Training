@@ -1,32 +1,27 @@
-class NullPointerException{
+public class NullPointer {
 
-    // Method to generate NullPointerException
-    static void generateException() {
-        String text = null;      // initializing to null
-        System.out.println(text.length()); // causes NullPointerException
+    // create method to generate NullPointerException
+    public static void generateException() {
+        String text = null;   
+        System.out.println(text.length()); 
     }
 
-    // Method to handle NullPointerException
-    static void handleException() {
-        String text = null; // initializing to null
-
+    // create method to handle NullPointerException
+    public static void handleException() {
+        String text = null;  
         try {
-            System.out.println(text.length()); // risky code
+            System.out.println(text.length());
         } catch (NullPointerException e) {
-            System.out.println("NullPointerException present ");
-            System.out.println("Reason: Attempt to access method on a null object.");
+            System.out.println("NullPointerException!");
         }
     }
 
     public static void main(String[] args) {
 
-        System.out.println("Calling method to generate exception:");
-        generateException();   // This will crash the program
+        System.out.println("Generating NullPointerException:");
+        generateException();
 
-        // The below code will not execute until we refactor
-        // to handle the exception
-
-        System.out.println("\nCalling method to handle exception:");
+        System.out.println("\nHandling NullPointerException:");
         handleException();
     }
 }
