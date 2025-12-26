@@ -118,7 +118,7 @@
 ## Week 2 : Strings and Extra Problems
 ---
 
-### 📅 Day 7 – Java Strings 
+### 📅 Day 1 – Java Strings 
 *(Date: 23-Dec-2025)*
 
 - Practiced Java strings: creation, escape sequences, and input handling  
@@ -128,5 +128,19 @@
 
 🔗 *Code Link:*  
 👉 [Day 7 – Java Strings Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
+
+---
+
+
+
+### 📅 Day 2 – Extras: String Handling, Built-in Functions & Date/Time
+*(Date: 24-Dec-2025)*
+
+- Practiced string handling: common string functions, parameter passing, and return values  
+- Explored common built-in functions: Random, Math  
+- Managed date and time using Java built-in functions (java.time API, Java 8+) for scheduling and displa  
+
+🔗 *Code Link:*  
+👉 [Day 8 – Extras Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
 
 ---
