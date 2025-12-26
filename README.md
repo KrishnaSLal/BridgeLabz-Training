@@ -40,10 +40,10 @@
 - Solved basic Java programs to understand syntax and structure.
 - Practiced adding, committing, and pushing Java files to GitHub.
 
-🔗 *Code Link:*  
-👉 [Day 2 – Basic Java Programs](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-pre-requisites)
---
+🔗*Code Link* <br>
+[Day 2 - Basic Java Programs](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-pre-requisites)
 
+---
 
 
 
