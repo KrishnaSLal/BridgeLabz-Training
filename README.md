@@ -79,3 +79,18 @@
 👉 [Day 4 – Java Control Flows Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 ---
+
+
+
+### 📅 Day 5 – Java Arrays 
+*(Date: 20-Dec-2025)*
+
+- Practiced Java arrays: creation, access, modification, length property  
+- Explored 2D arrays: element access, sizing  
+- Implemented System.err() and exit() for error handling  
+- Followed best practices: no hardcoding, proper naming, indentation, comments, input validation  
+
+🔗 *Code Link:*  
+👉 [Day 5 – Java Arrays Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+
+---
