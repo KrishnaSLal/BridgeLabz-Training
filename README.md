@@ -14,3 +14,20 @@
 
 ---
 
+
+
+
+### 📅 Day 4 – Java Constructors, Instance vs. Class Variables, Access Modifiers
+*(Date: 26-Dec-2025)* 
+
+- Learned how constructors initialize objecs in java.
+- Practiced parametrized constructors using real-world examples.
+- Understood the differences between instance variables and class (static) variables.
+- Used static methods to handle shared data. 
+- Learned and applied access modifiers.
+- Practiced inheritance to demonstrate access control.
+
+🔗*Code Link* <br> 
+[Day 2 - Basic Java Programs](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+
+ ---
