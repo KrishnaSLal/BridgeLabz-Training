@@ -133,18 +133,24 @@
 
 
 
-### 📅 Day 2 – Extras: String Handling, Built-in Functions & Date/Time
+### 📅 Day 2 – Extras: String Handling, Built-in Functions & Date/Time & Practiced Scenario-based & Leetcode Problems
 *(Date: 24-Dec-2025)*
 
 - Practiced string handling: common string functions, parameter passing, and return values  
 - Explored common built-in functions: Random, Math  
-- Managed date and time using Java built-in functions (java.time API, Java 8+) for scheduling and displa  
+- Managed date and time using Java built-in functions (java.time API, Java 8+) for scheduling and displaying.
+- Practiced scenario-based problems 
 
 🔗 *Code Link:*  
-👉 [Day 8 – Extras Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
+👉 [Day 8 – Extras Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)  
+
+👉 [Day 8 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+👉 [Day 8 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+
 
 ---
-
 
 ### 📅 Day 3 – Object-oriented Programming Fundamental
 *(Date: 26-Dec-2025)*
@@ -155,8 +161,8 @@
 - Explored constructors and memory allocation.
 - Practiced classes and objects and implemented encapsulation using access modifiers.
 
-🔗*Code Link* <br>
-[Day 2 - Object and class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+🔗*Code Link* 
+👉 [Day 2 - Object and class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
 
@@ -173,7 +179,7 @@
 - Learned and applied access modifiers.
 - Practiced inheritance to demonstrate access control.
 
-🔗*Code Link* <br> 
-[Day 2 - Constructors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+🔗*Code Link* 
+👉 [Day 2 - Constructors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
 
  ---
