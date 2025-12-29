@@ -133,7 +133,7 @@
 
 
 
-### 📅 Day 2 – Extras: String Handling, Built-in Functions & Date/Time & Scenario-based Question
+### 📅 Day 2 – Extras: String Handling, Built-in Functions & Date/Time & Practiced Scenario-based & Leetcode Problems
 *(Date: 24-Dec-2025)*
 
 - Practiced string handling: common string functions, parameter passing, and return values  
@@ -145,5 +145,9 @@
 👉 [Day 8 – Extras Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)  
 
 👉 [Day 8 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+👉 [Day 8 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+
 
 ---
