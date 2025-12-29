@@ -1,3 +1,12 @@
+/*9. School Bus Attendance System 🚍
+Track 10 students' presence.
+● Use for-each loop on names.
+● Ask "Present or Absent?"
+● Print total present and absent counts.*/
+
+
+
+
 import java.util.Scanner;
 
 public class SchoolBusAttendanceSystem {
@@ -7,7 +16,7 @@ public class SchoolBusAttendanceSystem {
         Scanner scanner = new Scanner(System.in);
 
         // Array of student names
-        String[] students = {"Krishna", "Priyanshu", "Kartik", "Vaishnav", "Aryaman", "Deepanshu", "Rudresh", "Soumya", "Rudra", "Sachin"};
+        String[] students = {"Krishna", "Priyanshu", "Kartik", "Vaishnav", "Aryaman", re"Deepanshu", "Rudresh", "Soumya", "Rudra", "Sachin"};
 
         int presentCount = 0;
         int absentCount = 0;
