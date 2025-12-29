@@ -1,3 +1,13 @@
+/* 8. Shopkeeper’s Discount Dashboard 🛍️
+A shopkeeper gives discounts based on total bill:
+● Input item prices in a for-loop.
+● Use if-else for discount logic.
+● Use proper indentation, constants, and comments.*/
+
+
+
+
+
 import java.util.Scanner;
 
 public class ShopkeepersDiscountDashboard {
