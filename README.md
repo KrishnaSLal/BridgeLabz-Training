@@ -10,7 +10,7 @@
 - Practiced classes and objects and implemented encapsulation using access modifiers.
 
 🔗*Code Link* <br>
-[Day 2 - Basic Java Programs](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+[Day 2 - Object and class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
 
@@ -28,6 +28,6 @@
 - Practiced inheritance to demonstrate access control.
 
 🔗*Code Link* <br> 
-[Day 2 - Basic Java Programs](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+[Day 2 - Constructors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
 
  ---
