@@ -191,7 +191,7 @@
 *(Date: 29-Dec-2025)*
 
 - Practiced scenario-based problems
-- Practiced leetcode problems
+- Practiced leetcode problems on string
 
 🔗 *Code Link:*  
 
