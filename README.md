@@ -173,7 +173,7 @@
 
 
 ### 📅 Day 4 – Practiced Scenario-based & Leetcode Problems
-*(Date: 26-Dec-2025)*
+*(Date: 27-Dec-2025)*
 
 - Practiced scenario-based problems
 - Practiced leetcode problems
