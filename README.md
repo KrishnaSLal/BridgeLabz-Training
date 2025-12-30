@@ -41,7 +41,7 @@
 - Practiced adding, committing, and pushing Java files to GitHub.
 
 🔗*Code Link* <br>
-[Day 2 - Basic Java Programs](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-pre-requisites)
+👉 [Day 2 - Basic Java Programs](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-pre-requisites)
 
 ---
 
@@ -155,6 +155,7 @@
 
 
 
+
 ### 📅 Day 3 – Object-oriented Programming Fundamental
 *(Date: 26-Dec-2025)*
 
@@ -164,16 +165,32 @@
 - Explored constructors and memory allocation.
 - Practiced classes and objects and implemented encapsulation using access modifiers.
 
-🔗*Code Link* 
+🔗*Code Link* <br>
 👉 [Day 2 - Object and class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
 
 
+### 📅 Day 3 – Practiced Scenario-based & Leetcode Problems
+*(Date: 26-Dec-2025)*
+
+- Practiced scenario-based problems
+- Practiced leetcode problems
+
+🔗 *Code Link:*  
+
+👉 [Day 3 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+👉 [Day 3 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+
+
+---
+
 
 
 ### 📅 Day 4 – Java Constructors, Instance vs. Class Variables, Access Modifiers
-*(Date: 26-Dec-2025)* 
+*(Date: 27-Dec-2025)* 
 
 - Learned how constructors initialize objecs in java.
 - Practiced parametrized constructors using real-world examples.
@@ -182,7 +199,57 @@
 - Learned and applied access modifiers.
 - Practiced inheritance to demonstrate access control.
 
-🔗*Code Link* 
+🔗*Code Link* <br> 
 👉 [Day 2 - Constructors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
 
  ---
+
+
+ ### 📅 Day 4 – Practiced Scenario-based & Leetcode Problems
+*(Date: 27-Dec-2025)*
+
+- Practiced scenario-based problems
+- Practiced leetcode problems
+
+🔗 *Code Link:*  
+
+👉 [Day 4 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+👉 [Day 4 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+---
+
+
+### 📅 Day 5 – This, Static, Final keywords & Instance of operators Concept
+*(Date: 29-Dec-2025)* 
+
+- Explored various keywords like This, Static and Final
+- Studied the instance of operator concept
+- Solved logical problems such as
+  - Bank Account System
+  - Library Management System
+  - Employee Management System
+  - University Student Management System
+  - Vehicle Registration System
+  - Product Management System
+  - Hospital Management System
+
+🔗*Code Link* <br> 
+👉 [Day 5 - Inbuilt-function](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inbuiltfunction/level1)
+
+ ---
+
+
+### 📅 Day 5 – Practiced Scenario-based & Leetcode Problems
+*(Date: 29-Dec-2025)*
+
+- Practiced scenario-based problems
+- Practiced leetcode problems on string
+
+🔗 *Code Link:*  
+
+👉 [Day 4 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+👉 [Day 4 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+---
