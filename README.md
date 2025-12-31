@@ -1,5 +1,8 @@
 # BridgeLabz-Training
 
+## Week 2 : Strings and Extra Problems
+---
+
 ### 📅 Day 3 – Object-oriented Programming Fundamental
 *(Date: 26-Dec-2025)*
 
