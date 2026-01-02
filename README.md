@@ -200,3 +200,14 @@
 👉 [Day 4 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 ---
+
+
+
+### 📅 Day 6 – Practiced Scenario-based
+*(Date: 30-Dec-2025)*
+
+- Practiced scenario-based problems
+
+🔗 *Code Link:* 
+
+👉 [Day 4 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
