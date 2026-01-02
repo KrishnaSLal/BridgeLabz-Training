@@ -93,10 +93,10 @@
 ### 📅 Day 8 – Encapsulation, Interface, Abstract Classes, and Polymorphism 
 *(Date: 1-Jan-2026)* 
 
-- Studied encapsulation
-- Explored interface
-- Studied abstract classes
-- Studied polymorphism
+- Studied encapsulation.
+- Explored interface.
+- Studied abstract classes.
+- Studied polymorphism.
 
 🔗*Code Link* <br> 
 [Day 8 -Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
