@@ -253,3 +253,82 @@
 👉 [Day 4 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 ---
+
+
+### 📅 Day 6 – Practiced Scenario-based
+*(Date: 30-Dec-2025)*
+
+- Practiced scenario-based problems
+
+🔗 *Code Link:* 
+
+👉 [Day 6 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+---
+
+### 📅 Day 6 – Object Modeling, Class Diagram
+*(Date: 30-Dec-2025)* 
+
+- Studied objects and classes.
+- Explored object oriented design principles
+- Learned about object diagrams, class diagrams, sequence diagrams.
+- Created UML diagrams.
+
+🔗*Code Link* <br> 
+[Day 6 - Object Modeling](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+
+[Day 6 - Object Model](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodel)
+
+ ---
+
+ ### 📅 Day 7 – Practiced Scenario-based & Leetcode Problems
+*(Date: 31-Dec-2025)*
+
+- Practiced scenario-based problems
+    - Digital Watch Simulation
+    - Online Quiz Application
+    - Currency Exchange Kiosk
+    - Bus Route Distance Tracker
+    - Festival Lucky Draw
+  
+- Practiced leetcode problems on string
+
+🔗 *Code Link:*  
+
+👉 [Day 7 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+👉 [Day 7 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+---
+
+### 📅 Day 7 – Inheritance
+*(Date: 31-Dec-2025)* 
+
+- Studied inheritance.
+- Single Level Inheritance.
+- Multilevel Inheritance.
+- Hierarchical Inheritance.
+- Key Features of Inheritance.
+- Method Overriding.
+- Constructor Inheritance in Java.
+- Polymorphism and Inheritance.
+- Access Modifiers and Inheritance.
+
+
+🔗*Code Link* <br> 
+[Day 7 -Inheritance](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+
+--- 
+
+### 📅 Day 8 – Encapsulation, Interface, Abstract Classes, and Polymorphism 
+*(Date: 1-Jan-2026)* 
+
+- Studied encapsulation.
+- Explored interface.
+- Studied abstract classes.
+- Studied polymorphism.
+
+🔗*Code Link* <br> 
+[Day 8 -Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
+
+---
