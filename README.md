@@ -195,9 +195,9 @@
 
 🔗 *Code Link:*  
 
-👉 [Day 4 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 5 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
-👉 [Day 4 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+👉 [Day 5 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 ---
 
@@ -210,4 +210,27 @@
 
 🔗 *Code Link:* 
 
-👉 [Day 4 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 6 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+---
+
+### 📅 Day 7 – Practiced Scenario-based & Leetcode Problems
+*(Date: 31-Dec-2025)*
+
+- Practiced scenario-based problems
+    - Digital Watch Simulation
+    - Online Quiz Application
+    - Currency Exchange Kiosk
+    - Bus Route Distance Tracker
+    - Festival Lucky Draw
+  
+- Practiced leetcode problems on string
+
+🔗 *Code Link:*  
+
+👉 [Day 7 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+👉 [Day 7 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+---
+
