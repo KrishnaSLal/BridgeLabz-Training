@@ -54,3 +54,19 @@
 [Day 5 - Inbuilt-function](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inbuiltfunction/level1)
 
  ---
+
+### 📅 Day 6 – Object Modeling, Class Diagram
+*(Date: 30-Dec-2025)* 
+
+- Studied objects and classes.
+- Explored object oriented design principles
+- Learned about object diagrams, class diagrams, sequence diagrams.
+- Created UML diagrams.
+
+🔗*Code Link* <br> 
+[Day 6 - Object Modeling](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+
+[Day 5 - Object Model](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodel)
+
+ ---
+ 
