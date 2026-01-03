@@ -103,3 +103,29 @@
 
 ---
 
+### 📅 Day 9 – Practiced Scenario-based Problems
+*(Date: 2-Jan-2026)* 
+
+- Solved Scenario based problems
+  - Hospital Patient Management System
+  - Vehicle Rental Application
+  - University Course Enrollment System
+  - E-Wallet Application
+  - Smart Home Automation System
+
+🔗*Code Link* <br> 
+[Day 9 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
+
+### 📅 Day 10 – Practiced Scenario-based Problems
+*(Date: 3-Jan-2026)* 
+
+- Solved Scenario based problems
+  - CabbyGo – A Ride-Hailing App in the Making
+  - MyBank – Managing Customer Accounts"
+
+🔗*Code Link* <br> 
+[Day 9 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
