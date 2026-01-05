@@ -364,3 +364,30 @@
 👉 [Day 1 – LinkedList](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/linkedlist)
 
 ---
+
+
+### 📅 Day 10 – Practiced Scenario-based Problems of OOPS
+*(Date: 3-Jan-2026)* 
+
+- Solved Scenario based problems
+  - CabbyGo – A Ride-Hailing App in the Making
+  - MyBank – Managing Customer Accounts"
+
+🔗*Code Link* <br> 
+[Day 9 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
+
+### 📅 Day 2 – Stack , Queue, HashMap and Hashing Function
+*(Date: 03-Jan-2026)*
+
+- Learned Stack and its implementation
+- Studied Queue and its implementation
+- Studied HashMap and Hashing Functions and its implementation
+
+🔗 *Code Link:*  
+👉 [Day 2 – Stack and Queue](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stacksandqueues)
+
+👉 [Day 2 – HashMap and HashFunction](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/hashmapsandhashfunctions)
+
+---
