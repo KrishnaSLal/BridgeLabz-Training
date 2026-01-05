@@ -27,3 +27,25 @@
 👉 [Day 2 – HashMap and HashFunction](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/hashmapsandhashfunctions)
 
 ---
+
+### 📅 Day 3 – Sorting Algorithms
+*(Date: 05-Jan-2026)*
+
+- Studied various sorting algorithms like:
+  - Bubble sort
+  - Insertion sort
+  - Merge sort
+  - Quick sort
+
+- Explored various sorting techniques like:
+  - Selection sort
+  - Heap sort
+  - Counting sort
+  - Radix sort
+  - Bucket sort
+
+- Implemented the sorting techniques
+
+👉 [Day 3 – Sorting Algorithms](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/sortingalgorithms)
+
+---
