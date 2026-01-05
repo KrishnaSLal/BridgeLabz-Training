@@ -332,3 +332,35 @@
 [Day 8 -Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
 
 ---
+
+
+## Week 3 : Data Structures
+
+### 📅 Day 9 – Practiced Scenario-based Problems  of OOPS
+*(Date: 2-Jan-2026)* 
+
+- Solved Scenario based problems
+  - Hospital Patient Management System
+  - Vehicle Rental Application
+  - University Course Enrollment System
+  - E-Wallet Application
+  - Smart Home Automation System
+
+🔗*Code Link* <br> 
+[Day 9 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
+
+
+### 📅 Day 1 – Data Structure Introduction and LinkedList
+*(Date: 02-Jan-2026)*
+
+- Explored the basics of data structures.
+- Revised the concepts of array.
+- Learned the key features of data structures in java.
+- Studied and implemented singly linked list, doubly linked list, double linked list and circular linked list.
+
+🔗 *Code Link:*  
+👉 [Day 1 – LinkedList](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/linkedlist)
+
+---
