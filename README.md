@@ -156,6 +156,8 @@
 
 
 
+
+
 ### 📅 Day 3 – Object-oriented Programming Fundamental
 *(Date: 26-Dec-2025)*
 
@@ -367,14 +369,14 @@
 
 
 ### 📅 Day 10 – Practiced Scenario-based Problems of OOPS
-*(Date: 3-Jan-2026)* 
+*(Date: 03-Jan-2026)* 
 
 - Solved Scenario based problems
   - CabbyGo – A Ride-Hailing App in the Making
   - MyBank – Managing Customer Accounts"
 
 🔗*Code Link* <br> 
-[Day 9 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+[Day 10 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -391,3 +393,38 @@
 👉 [Day 2 – HashMap and HashFunction](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/hashmapsandhashfunctions)
 
 ---
+
+### 📅 Day 11 – Practiced Scenario-based Problems
+*(Date: 05-Jan-2026)* 
+
+- Solved Scenario based problems
+  - CampusConnect – College Information System
+  - SwiftCart – The Grocery Shopping App
+
+🔗*Code Link* <br> 
+[Day 11 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
+
+### 📅 Day 3 – Sorting Algorithms
+*(Date: 05-Jan-2026)*
+
+- Studied various sorting algorithms like:
+  - Bubble sort
+  - Insertion sort
+  - Merge sort
+  - Quick sort
+
+- Explored various sorting techniques like:
+  - Selection sort
+  - Heap sort
+  - Counting sort
+  - Radix sort
+  - Bucket sort
+
+- Implemented the sorting techniques
+
+👉 [Day 3 – Sorting Algorithms](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/sortingalgorithms)
+
+---
+
