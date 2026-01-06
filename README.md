@@ -141,3 +141,17 @@
 [Day 11 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
+
+### 📅 Day 12 – Practiced Scenario-based Problems
+*(Date: 06-Jan-2026)* 
+
+- Solved Scenario based problems
+  - EduMentor – Personalized Learning Platform
+  - FitTrack – Your Personal Fitness Tracker
+  - PetPal – Virtual Pet Care App
+  - EventEase – Event Management Platform
+
+🔗*Code Link* <br> 
+[Day 12 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
