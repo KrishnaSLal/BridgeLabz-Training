@@ -115,10 +115,7 @@
 
 
 
-## Week 2 : Strings and Extra Problems
----
-
-### 📅 Day 1 – Java Strings 
+### 📅 Day 7 – Java Strings 
 *(Date: 23-Dec-2025)*
 
 - Practiced Java strings: creation, escape sequences, and input handling  
@@ -127,13 +124,13 @@
 - Applied best practices: proper naming for variables/methods/classes, modular methods, meaningful program structure  
 
 🔗 *Code Link:*  
-👉 [Day 1 – Java Strings Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
+👉 [Day 7 – Java Strings Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
 
 ---
 
 
 
-### 📅 Day 2 – Extras: String Handling, Built-in Functions & Date/Time & Practiced Scenario-based & Leetcode Problems
+### 📅 Day 8 – Extras: String Handling, Built-in Functions & Date/Time & Practiced Scenario-based & Leetcode Problems
 *(Date: 24-Dec-2025)*
 
 - Practiced string handling: common string functions, parameter passing, and return values  
@@ -142,11 +139,11 @@
 - Practiced scenario-based problems 
 
 🔗 *Code Link:*  
-👉 [Day 2 – Extras Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)  
+👉 [Day 8 – Extras Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)  
 
-👉 [Day 2 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 8 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
-👉 [Day 2 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+👉 [Day 8 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 
 
@@ -154,7 +151,7 @@
 
 
 
-### 📅 Day 3 – Practiced Scenario-based & Leetcode Problems
+### 📅 Day 9 – Practiced Scenario-based & Leetcode Problems
 *(Date: 26-Dec-2025)*
 
 - Practiced scenario-based problems
@@ -162,9 +159,9 @@
 
 🔗 *Code Link:*  
 
-👉 [Day 3 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 9 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
-👉 [Day 3 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+👉 [Day 9 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 
 
@@ -172,7 +169,7 @@
 
 
 
-### 📅 Day 4 – Practiced Scenario-based & Leetcode Problems
+### 📅 Day 10 – Practiced Scenario-based & Leetcode Problems
 *(Date: 27-Dec-2025)*
 
 - Practiced scenario-based problems
@@ -180,14 +177,14 @@
 
 🔗 *Code Link:*  
 
-👉 [Day 4 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 10 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
-👉 [Day 4 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+👉 [Day 10 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 ---
 
 
-### 📅 Day 5 – Practiced Scenario-based & Leetcode Problems
+### 📅 Day 11 – Practiced Scenario-based & Leetcode Problems
 *(Date: 29-Dec-2025)*
 
 - Practiced scenario-based problems
@@ -195,26 +192,26 @@
 
 🔗 *Code Link:*  
 
-👉 [Day 5 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 11 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
-👉 [Day 5 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+👉 [Day 11 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 ---
 
 
 
-### 📅 Day 6 – Practiced Scenario-based
+### 📅 Day 12 – Practiced Scenario-based
 *(Date: 30-Dec-2025)*
 
 - Practiced scenario-based problems
 
 🔗 *Code Link:* 
 
-👉 [Day 6 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 12 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
 ---
 
-### 📅 Day 7 – Practiced Scenario-based & Leetcode Problems
+### 📅 Day 13 – Practiced Scenario-based & Leetcode Problems
 *(Date: 31-Dec-2025)*
 
 - Practiced scenario-based problems
@@ -228,9 +225,9 @@
 
 🔗 *Code Link:*  
 
-👉 [Day 7 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 13 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
-👉 [Day 7 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+👉 [Day 13 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 ---
 
