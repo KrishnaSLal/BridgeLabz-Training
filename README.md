@@ -318,7 +318,7 @@
 
 
 🔗*Code Link* <br> 
-👉 [Day 7 -Inheritance](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+👉 [Day 7 - Inheritance](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 
 --- 
 
@@ -331,7 +331,7 @@
 - Studied polymorphism.
 
 🔗*Code Link* <br> 
-👉 [Day 8 -Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
+👉 [Day 8 - Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
 
 ---
 
@@ -349,7 +349,7 @@
   - Smart Home Automation System
 
 🔗*Code Link* <br> 
-👉 [Day 9 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 9 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -402,7 +402,7 @@
   - SwiftCart – The Grocery Shopping App
 
 🔗*Code Link* <br> 
-👉 [Day 11 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 11 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -438,6 +438,23 @@
   - EventEase – Event Management Platform
 
 🔗*Code Link* <br> 
-👉 [Day 12 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 12 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
+
+### 📅 Day 3 – Linear Search and Binary Search
+*(Date: 06-Jan-2026)*
+
+- Explored StringBuilder
+- Studied StringBuffer
+- Learned FileReader
+- Learned InputStreamReader
+- Learned Linear Search 
+- Learned Binary Search
+
+🔗*Code Link* <br> 
+👉 [Day 3 - Linear and Binary Search](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stringbuilder)
+
+---
+
+ 
