@@ -465,6 +465,6 @@
   - BookBazaar – Digital Bookstore System
 
   🔗*Code Link* <br> 
-[Day 13 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 13 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
