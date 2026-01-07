@@ -49,3 +49,18 @@
 👉 [Day 3 – Sorting Algorithms](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/sortingalgorithms)
 
 ---
+
+### 📅 Day 3 – Linear Search and Binary Search
+*(Date: 06-Jan-2026)*
+
+- Explored StringBuilder
+- Studied StringBuffer
+- Learned FileReader
+- Learned InputStreamReader
+- Learned Linear Search 
+- Learned Binary Search
+
+🔗*Code Link* <br> 
+👉 [Day 3 - Linear and Binary Search](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stringbuilder)
+
+---
