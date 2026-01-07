@@ -277,9 +277,9 @@
 - Created UML diagrams.
 
 🔗*Code Link* <br> 
-[Day 6 - Object Modeling](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+👉 [Day 6 - Object Modeling](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
 
-[Day 6 - Object Model](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodel)
+👉 [Day 6 - Object Model](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodel)
 
  ---
 
@@ -318,7 +318,7 @@
 
 
 🔗*Code Link* <br> 
-[Day 7 -Inheritance](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+👉 [Day 7 -Inheritance](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 
 --- 
 
@@ -331,7 +331,7 @@
 - Studied polymorphism.
 
 🔗*Code Link* <br> 
-[Day 8 -Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
+👉 [Day 8 -Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
 
 ---
 
@@ -349,7 +349,7 @@
   - Smart Home Automation System
 
 🔗*Code Link* <br> 
-[Day 9 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 9 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -376,7 +376,7 @@
   - MyBank – Managing Customer Accounts"
 
 🔗*Code Link* <br> 
-[Day 10 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 10 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -402,7 +402,7 @@
   - SwiftCart – The Grocery Shopping App
 
 🔗*Code Link* <br> 
-[Day 11 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 11 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -428,3 +428,16 @@
 
 ---
 
+### 📅 Day 12 – Practiced Scenario-based Problems
+*(Date: 06-Jan-2026)* 
+
+- Solved Scenario based problems
+  - EduMentor – Personalized Learning Platform
+  - FitTrack – Your Personal Fitness Tracker
+  - PetPal – Virtual Pet Care App
+  - EventEase – Event Management Platform
+
+🔗*Code Link* <br> 
+👉 [Day 12 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
