@@ -155,3 +155,15 @@
 [Day 12 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
+
+### 📅 Day 13 – Practiced Scenario-based Problems
+*(Date: 07-Jan-2026)* 
+
+- Solved Scenario based problems
+  - LoanBuddy – Loan Approval Automation
+  - BookBazaar – Digital Bookstore System
+
+  🔗*Code Link* <br> 
+[Day 13 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
