@@ -11,4 +11,11 @@ class EBook extends Book {
     public double applyDiscount(double price) {
         return price * 0.80;
     }
+
+	@Override
+	
+    public double applyDiscount(double price, int quantity) {
+    	 return 0;
+    }
+	
 }

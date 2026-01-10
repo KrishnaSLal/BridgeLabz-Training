@@ -11,4 +11,10 @@ class PrintedBook extends Book {
     public double applyDiscount(double price) {
         return price - 50;
     }
+
+	@Override
+	public double applyDiscount(double price, int quantity) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
