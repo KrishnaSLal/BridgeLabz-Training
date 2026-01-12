@@ -1,4 +1,4 @@
-package com.stringbuffer.concatenatestrings;
+package com.searching.stringbuffer.concatenatestrings;
 
 import java.util.Scanner;
 
