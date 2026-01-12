@@ -1,4 +1,4 @@
-package com.filereader.readfile;
+package com.searching.filereader.readfile;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
