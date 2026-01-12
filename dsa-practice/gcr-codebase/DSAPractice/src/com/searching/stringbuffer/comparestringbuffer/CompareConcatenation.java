@@ -1,4 +1,4 @@
-package com.stringbuffer.comparestringbuffer;
+package com.searching.stringbuffer.comparestringbuffer;
 
 import java.util.Scanner;
 
