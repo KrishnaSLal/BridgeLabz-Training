@@ -65,3 +65,17 @@
 
 ---
 
+### 📅 Day 4 – Algorithm's Runtime Analysis & Big-O Notation
+*(Date: 07-Jan-2026)*
+
+- Explored Runtime Analysis
+- Studied Big-O Notation
+- Learned Time Complexity Analysis
+- Learned Space Complexity Analysis
+- Undrstood Best, Worst, and Average Case Complexities
+- Explored Practical Guidelines for Optimizing Java Code
+
+🔗*Code Link* <br> 
+👉 [Day 4 - Runtime Analysis](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/runtimeanalysis)
+
+---
