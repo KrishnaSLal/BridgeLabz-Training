@@ -162,6 +162,7 @@
 - Solved Scenario based problems
   - LoanBuddy – Loan Approval Automation
   - BookBazaar – Digital Bookstore System
+  - ParkEase – Smart Parking Management System
 
   🔗*Code Link* <br> 
 [Day 13 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
