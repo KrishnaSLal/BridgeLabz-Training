@@ -1,4 +1,4 @@
-package com.stringbuilder.removeduplicates;
+package com.searching.stringbuilder.removeduplicates;
 
 import java.util.HashSet;
 import java.util.Scanner;
