@@ -28,11 +28,6 @@
 ---
 
 
-
-
-
-
-
 ### 📅 Day 2 – Git Practice & Basic Java Programs
 *(Date: 17-Dec-2025)*
 
@@ -61,11 +56,6 @@
 👉 [Day 3 – Programming Elements](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 ---
-
-
-
-
-
 
 ### 📅 Day 4 – Java Control Flows 
 *(Date: 19-Dec-2025)*
@@ -96,9 +86,6 @@
 ---
 
 
-
-
-
 ### 📅 Day 6 – Java Methods 
 *(Date: 22-Dec-2025)*
 
@@ -111,8 +98,6 @@
 👉 [Day 6 – Java Methods Practice](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
 
 ---
-
-
 
 
 ## Week 2 : Strings and Extra Problems
@@ -151,12 +136,6 @@
 
 
 ---
-
-
-
-
-
-
 
 ### 📅 Day 3 – Object-oriented Programming Fundamental
 *(Date: 26-Dec-2025)*
@@ -442,7 +421,7 @@
 
 ---
 
-### 📅 Day 3 – Linear Search and Binary Search
+### 📅 Day 4 – Linear Search and Binary Search
 *(Date: 06-Jan-2026)*
 
 - Explored StringBuilder
@@ -469,7 +448,7 @@
 
 ---
 
-### 📅 Day 4 – Algorithm's Runtime Analysis & Big-O Notation
+### 📅 Day 5 – Algorithm's Runtime Analysis & Big-O Notation
 *(Date: 07-Jan-2026)*
 
 - Explored Runtime Analysis
