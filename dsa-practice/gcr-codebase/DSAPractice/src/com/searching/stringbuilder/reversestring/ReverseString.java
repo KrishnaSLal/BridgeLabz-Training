@@ -1,4 +1,4 @@
-package com.stringbuilder.reversestring;
+package com.searching.stringbuilder.reversestring;
 
 import java.util.Scanner;
 
