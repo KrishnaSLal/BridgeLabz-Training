@@ -50,7 +50,7 @@
 
 ---
 
-### 📅 Day 3 – Linear Search and Binary Search
+### 📅 Day 4 – Linear Search and Binary Search
 *(Date: 06-Jan-2026)*
 
 - Explored StringBuilder
@@ -65,7 +65,7 @@
 
 ---
 
-### 📅 Day 4 – Algorithm's Runtime Analysis & Big-O Notation
+### 📅 Day 5 – Algorithm's Runtime Analysis & Big-O Notation
 *(Date: 07-Jan-2026)*
 
 - Explored Runtime Analysis
