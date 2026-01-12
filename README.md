@@ -483,3 +483,15 @@
 👉 [Day 4 - Runtime Analysis](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/runtimeanalysis)
 
 ---
+
+### 📅 Day 14 – Practiced Scenario-based Problems
+*(Date: 08-Jan-2026)* 
+
+- Solved Scenario based problems
+  - MediStore – Pharmacy Inventory & Sales System
+  - TourMate – Travel Itinerary Planner
+
+  🔗*Code Link* <br> 
+👉[Day 14 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
