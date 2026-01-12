@@ -1,4 +1,4 @@
-package com.inputstreamreader.bytestreamtocharacaterstream;
+package com.searching.inputstreamreader.bytestreamtocharacaterstream;
 
 import java.io.*;
 import java.nio.charset.Charset;
