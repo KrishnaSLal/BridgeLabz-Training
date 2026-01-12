@@ -8,7 +8,7 @@ public class TargetValueIn2DMatrix {
 
         Scanner sc = new Scanner(System.in);
 
-        // Take matrix dimensions
+        // Input matrix dimensions
         System.out.print("Enter number of rows: ");
         int rows = sc.nextInt();
 
@@ -17,7 +17,7 @@ public class TargetValueIn2DMatrix {
 
         int[][] matrix = new int[rows][cols];
 
-        // Take matrix input
+        // Input matrix elements
         System.out.println("Enter matrix elements (row-wise sorted):");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
@@ -25,20 +25,20 @@ public class TargetValueIn2DMatrix {
             }
         }
 
-        // Take target value
+        // Input target
         System.out.print("Enter target value: ");
         int target = sc.nextInt();
 
-        // Search target
-        boolean found = searchMatrix(matrix, rows, cols, target);
+        // Search
+        boolean result = searchMatrix(matrix, rows, cols, target);
 
         // Output
-        System.out.println("Target found: " + found);
+        System.out.println("Target found: " + result);
 
         sc.close();
     }
 
-    // Binary search in 2D matrix
+    // Binary search method
     public static boolean searchMatrix(int[][] matrix, int rows, int cols, int target) {
 
         int left = 0;
@@ -47,15 +47,15 @@ public class TargetValueIn2DMatrix {
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
-            int r = mid / cols;
-            int c = mid % cols;
+            int row = mid / cols;
+            int col = mid % cols;
 
-            if (matrix[r][c] == target) {
+            if (matrix[row][col] == target) {
                 return true;
-            } else if (matrix[r][c] < target) {
-                left = mid + 1;
-            } else {
+            } else if (matrix[row][col] > target) {
                 right = mid - 1;
+            } else {
+                left = mid + 1;
             }
         }
         return false;
