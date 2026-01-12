@@ -453,7 +453,7 @@
 - Learned Binary Search
 
 🔗*Code Link* <br> 
-👉 [Day 3 - Linear and Binary Search](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stringbuilder)
+👉 [Day 3 - Linear and Binary Search](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/searching)
 
 ---
 
