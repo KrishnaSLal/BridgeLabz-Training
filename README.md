@@ -61,7 +61,7 @@
 - Learned Binary Search
 
 🔗*Code Link* <br> 
-👉 [Day 3 - Linear and Binary Search](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/searching)
+👉 [Day 4 - Linear and Binary Search](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/searching)
 
 ---
 
@@ -76,6 +76,19 @@
 - Explored Practical Guidelines for Optimizing Java Code
 
 🔗*Code Link* <br> 
-👉 [Day 4 - Runtime Analysis](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/runtimeanalysis)
+👉 [Day 5 - Runtime Analysis](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/runtimeanalysis)
+
+---
+
+### 📅 Day 6 – Scenario - Based Problems Of Data Structures
+*(Date: 10-Jan-2026)*
+
+- Practiced Scenario-based problems involving data structures such as linked lists, stacks, queues, hashmaps, and functions.
+  - BookShelf – Library Organizer (HashMap + Linked List)
+  - BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+  - AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
+
+🔗*Code Link* <br> 
+👉 [Day 6 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
 
 ---
