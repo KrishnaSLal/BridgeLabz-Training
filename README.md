@@ -196,7 +196,7 @@
 
 
 ### 📅 Day 14 – Practiced Scenario-based Problems
-*(Date: 09-Jan-2026)* 
+*(Date: 12-Jan-2026)* 
 
 - Solved Scenario based problems
  - HomeNest – Smart Home Device Manager
