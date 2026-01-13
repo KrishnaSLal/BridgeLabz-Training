@@ -100,10 +100,8 @@
 ---
 
 
-## Week 2 : Strings and Extra Problems
----
 
-### 📅 Day 1 – Java Strings 
+### 📅 Day 7 – Java Strings 
 *(Date: 23-Dec-2025)*
 
 - Practiced Java strings: creation, escape sequences, and input handling  
@@ -118,7 +116,7 @@
 
 
 
-### 📅 Day 2 – Extras: String Handling, Built-in Functions & Date/Time & Practiced Scenario-based & Leetcode Problems
+### 📅 Day 8 – Extras: String Handling, Built-in Functions & Date/Time & Practiced Scenario-based & Leetcode Problems
 *(Date: 24-Dec-2025)*
 
 - Practiced string handling: common string functions, parameter passing, and return values  
@@ -134,10 +132,12 @@
 👉 [Day 8 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 
-
 ---
 
-### 📅 Day 3 – Object-oriented Programming Fundamental
+## Week 2 : Strings and Extra Problems
+---
+
+### 📅 Day 1 – Object-oriented Programming Fundamental
 *(Date: 26-Dec-2025)*
 
 - Explored the concept of procedural programming
@@ -147,12 +147,12 @@
 - Practiced classes and objects and implemented encapsulation using access modifiers.
 
 🔗*Code Link* <br>
-👉 [Day 2 - Object and class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+👉 [Day 1 - Object and class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
 
 
-### 📅 Day 3 – Practiced Scenario-based & Leetcode Problems
+### 📅 Day 2 – Practiced Scenario-based & Leetcode Problems
 *(Date: 26-Dec-2025)*
 
 - Practiced scenario-based problems
@@ -160,9 +160,9 @@
 
 🔗 *Code Link:*  
 
-👉 [Day 3 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 2 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
-👉 [Day 3 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+👉 [Day 2 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 
 
@@ -170,7 +170,7 @@
 
 
 
-### 📅 Day 4 – Java Constructors, Instance vs. Class Variables, Access Modifiers
+### 📅 Day 3 – Java Constructors, Instance vs. Class Variables, Access Modifiers
 *(Date: 27-Dec-2025)* 
 
 - Learned how constructors initialize objecs in java.
@@ -181,7 +181,7 @@
 - Practiced inheritance to demonstrate access control.
 
 🔗*Code Link* <br> 
-👉 [Day 2 - Constructors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+👉 [Day 3 - Constructors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
 
  ---
 
@@ -201,7 +201,7 @@
 ---
 
 
-### 📅 Day 5 – This, Static, Final keywords & Instance of operators Concept
+### 📅 Day 4 – This, Static, Final keywords & Instance of operators Concept
 *(Date: 29-Dec-2025)* 
 
 - Explored various keywords like This, Static and Final
@@ -216,7 +216,7 @@
   - Hospital Management System
 
 🔗*Code Link* <br> 
-👉 [Day 5 - Inbuilt-function](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inbuiltfunction/level1)
+👉 [Day 4 - Inbuilt-function](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inbuiltfunction/level1)
 
  ---
 
@@ -485,5 +485,18 @@
 
   🔗*Code Link* <br> 
 👉[Day 15 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
+
+### 📅 Day 6 – Scenario - Based Problems Of Data Structures
+*(Date: 10-Jan-2026)*
+
+- Practiced Scenario-based problems involving data structures such as linked lists, stacks, queues, hashmaps, and functions.
+  - BookShelf – Library Organizer (HashMap + Linked List)
+  - BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+  - AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
+
+🔗*Code Link* <br> 
+👉 [Day 6 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
 
 ---
