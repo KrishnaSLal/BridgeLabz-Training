@@ -134,7 +134,7 @@
 
 ---
 
-## Week 2 : Strings and Extra Problems
+## Week 2 : Object Oriented Programming
 ---
 
 ### 📅 Day 1 – Object-oriented Programming Fundamental
@@ -170,7 +170,7 @@
 
 
 
-### 📅 Day 3 – Java Constructors, Instance vs. Class Variables, Access Modifiers
+### 📅 Day 2 – Java Constructors, Instance vs. Class Variables, Access Modifiers
 *(Date: 27-Dec-2025)* 
 
 - Learned how constructors initialize objecs in java.
@@ -181,7 +181,7 @@
 - Practiced inheritance to demonstrate access control.
 
 🔗*Code Link* <br> 
-👉 [Day 3 - Constructors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+👉 [Day 2 - Constructors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
 
  ---
 
@@ -201,7 +201,7 @@
 ---
 
 
-### 📅 Day 4 – This, Static, Final keywords & Instance of operators Concept
+### 📅 Day 3 – This, Static, Final keywords & Instance of operators Concept
 *(Date: 29-Dec-2025)* 
 
 - Explored various keywords like This, Static and Final
@@ -216,7 +216,7 @@
   - Hospital Management System
 
 🔗*Code Link* <br> 
-👉 [Day 4 - Inbuilt-function](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inbuiltfunction/level1)
+👉 [Day 3 - Inbuilt-function](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inbuiltfunction/level1)
 
  ---
 
@@ -229,9 +229,9 @@
 
 🔗 *Code Link:*  
 
-👉 [Day 4 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 5 – Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
-👉 [Day 4 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+👉 [Day 5 – Leetcode problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
 ---
 
@@ -247,7 +247,7 @@
 
 ---
 
-### 📅 Day 6 – Object Modeling, Class Diagram
+### 📅 Day 4 – Object Modeling, Class Diagram
 *(Date: 30-Dec-2025)* 
 
 - Studied objects and classes.
@@ -256,9 +256,9 @@
 - Created UML diagrams.
 
 🔗*Code Link* <br> 
-👉 [Day 6 - Object Modeling](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+👉 [Day 4 - Object Modeling](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
 
-👉 [Day 6 - Object Model](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodel)
+👉 [Day 4 - Object Model](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodel)
 
  ---
 
@@ -282,7 +282,7 @@
 
 ---
 
-### 📅 Day 7 – Inheritance
+### 📅 Day 5 – Inheritance
 *(Date: 31-Dec-2025)* 
 
 - Studied inheritance.
@@ -297,11 +297,11 @@
 
 
 🔗*Code Link* <br> 
-👉 [Day 7 - Inheritance](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+👉 [Day 5 - Inheritance](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 
 --- 
 
-### 📅 Day 8 – Encapsulation, Interface, Abstract Classes, and Polymorphism 
+### 📅 Day 6 – Encapsulation, Interface, Abstract Classes, and Polymorphism 
 *(Date: 1-Jan-2026)* 
 
 - Studied encapsulation.
@@ -310,15 +310,15 @@
 - Studied polymorphism.
 
 🔗*Code Link* <br> 
-👉 [Day 8 - Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
+👉 [Day 6 - Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
 
 ---
 
 
 ## Week 3 : Data Structures
 
-### 📅 Day 9 – Practiced Scenario-based Problems  of OOPS
-*(Date: 2-Jan-2026)* 
+### 📅 Day 7 – Practiced Scenario-based Problems  of OOPS
+*(Date: 02-Jan-2026)* 
 
 - Solved Scenario based problems
   - Hospital Patient Management System
@@ -328,7 +328,7 @@
   - Smart Home Automation System
 
 🔗*Code Link* <br> 
-👉 [Day 9 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 7 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -347,7 +347,7 @@
 ---
 
 
-### 📅 Day 10 – Practiced Scenario-based Problems of OOPS
+### 📅 Day 8 – Practiced Scenario-based Problems of OOPS
 *(Date: 03-Jan-2026)* 
 
 - Solved Scenario based problems
@@ -355,7 +355,7 @@
   - MyBank – Managing Customer Accounts"
 
 🔗*Code Link* <br> 
-👉 [Day 10 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 8 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -373,7 +373,7 @@
 
 ---
 
-### 📅 Day 11 – Practiced Scenario-based Problems
+### 📅 Day 9 – Practiced Scenario-based Problems
 *(Date: 05-Jan-2026)* 
 
 - Solved Scenario based problems
@@ -381,7 +381,7 @@
   - SwiftCart – The Grocery Shopping App
 
 🔗*Code Link* <br> 
-👉 [Day 11 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 9 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -407,7 +407,7 @@
 
 ---
 
-### 📅 Day 12 – Practiced Scenario-based Problems
+### 📅 Day 10 – Practiced Scenario-based Problems
 *(Date: 06-Jan-2026)* 
 
 - Solved Scenario based problems
@@ -417,7 +417,7 @@
   - EventEase – Event Management Platform
 
 🔗*Code Link* <br> 
-👉 [Day 12 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 10 - Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -432,11 +432,11 @@
 - Learned Binary Search
 
 🔗*Code Link* <br> 
-👉 [Day 3 - Linear and Binary Search](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/searching)
+👉 [Day 4 - Linear and Binary Search](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/searching)
 
 ---
 
- ### 📅 Day 13 – Practiced Scenario-based Problems
+ ### 📅 Day 11 – Practiced Scenario-based Problems
 *(Date: 07-Jan-2026)* 
 
 - Solved Scenario based problems
@@ -444,7 +444,7 @@
   - BookBazaar – Digital Bookstore System
 
   🔗*Code Link* <br> 
-👉 [Day 13 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉 [Day 11 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -459,11 +459,11 @@
 - Explored Practical Guidelines for Optimizing Java Code
 
 🔗*Code Link* <br> 
-👉 [Day 4 - Runtime Analysis](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/runtimeanalysis)
+👉 [Day 5 - Runtime Analysis](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/runtimeanalysis)
 
 ---
 
-### 📅 Day 14 – Practiced Scenario-based Problems
+### 📅 Day 12 – Practiced Scenario-based Problems
 *(Date: 08-Jan-2026)* 
 
 - Solved Scenario based problems
@@ -471,11 +471,11 @@
   - TourMate – Travel Itinerary Planner
 
   🔗*Code Link* <br> 
-👉[Day 14 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉[Day 12 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
-### 📅 Day 15 – Practiced Scenario-based Problems
+### 📅 Day 13 – Practiced Scenario-based Problems
 *(Date: 09-Jan-2026)* 
 
 - Solved Scenario based problems
@@ -484,7 +484,7 @@
   - SkillForge – Online Learning Portal
 
   🔗*Code Link* <br> 
-👉[Day 15 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉[Day 13 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
 
@@ -498,5 +498,18 @@
 
 🔗*Code Link* <br> 
 👉 [Day 6 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
+
+### 📅 Day 14 – Practiced Scenario-based Problems
+*(Date: 12-Jan-2026)* 
+
+- Solved Scenario based problems
+ - HomeNest – Smart Home Device Manager
+ - BudgetWise – Personal Finance Tracker
+ - GameBox – Mobile Game Distribution Platform
+
+🔗*Code Link* <br> 
+👉[Day 14 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
