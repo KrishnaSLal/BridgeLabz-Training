@@ -4,7 +4,7 @@ import java.util.*;
 
 class BookShelf {
 
-    // Genre → List of Books
+    // Genre - list of Books
     private Map<String, LinkedList<Book>> catalog = new HashMap<>();
 
     // To avoid duplication
