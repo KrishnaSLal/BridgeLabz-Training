@@ -513,3 +513,29 @@
 👉[Day 14 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
+
+### 📅 Day 8 – Scenario - Based Problems Of Data Structures
+*(Date: 13-Jan-2026)*
+
+- Practiced Scenario-based problems involving data structures such as linked lists, stacks, queues, hashmaps, and functions.
+
+  - SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+  - ParcelTracker – Delivery Chain Management (Singly Linked List)
+  - ExamProctor – Online Exam Review System (Stack + HashMap + Functions)
+
+🔗*Code Link* <br> 
+👉 [Day 8 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
+
+### 📅 Day 15 – Practiced Scenario-based Problems
+*(Date: 13-Jan-2026)* 
+
+- Solved Scenario based problems
+ - PayXpress – Utility Bill Payment System
+ - Bird Sanctuary – Java OOP Scenario
+
+🔗*Code Link* <br> 
+👉[Day 15 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
