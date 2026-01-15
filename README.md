@@ -92,3 +92,16 @@
 👉 [Day 6 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
 
 ---
+
+### 📅 Day 7 – Scenario - Based Problems Of Data Structures
+*(Date: 12-Jan-2026)*
+
+- Practiced Scenario-based problems involving data structures such as linked lists, stacks, queues, hashmaps, and functions.
+  - CallCenter – Customer Queue Manager (Queue + HashMap)
+  - TrainCompanion – Compartment Navigation System (Doubly Linked List)
+  - TextEditor – Undo/Redo Functionality (Stack)
+
+🔗*Code Link* <br> 
+👉 [Day 7 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
