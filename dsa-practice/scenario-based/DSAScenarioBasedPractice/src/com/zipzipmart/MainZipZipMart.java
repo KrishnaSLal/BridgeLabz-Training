@@ -29,7 +29,7 @@ public class MainZipZipMart {
             sales.add(new SaleTransaction(id, date, amount));
         }
 
-        System.out.println("\n📄 Unsorted Sales Records:");
+        System.out.println("\nUnsorted Sales Records :");
         sales.forEach(System.out::println);
 
         List<SaleTransaction> sortedSales = MergeSortSales.mergeSort(sales);
