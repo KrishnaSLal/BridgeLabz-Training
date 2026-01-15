@@ -207,3 +207,15 @@
 👉[Day 14 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
+
+### 📅 Day 15 – Practiced Scenario-based Problems
+*(Date: 13-Jan-2026)* 
+
+- Solved Scenario based problems
+ - PayXpress – Utility Bill Payment System
+ - Bird Sanctuary – Java OOP Scenario
+
+🔗*Code Link* <br> 
+👉[Day 15 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
