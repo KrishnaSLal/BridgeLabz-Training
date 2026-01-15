@@ -100,8 +100,23 @@
   - CallCenter – Customer Queue Manager (Queue + HashMap)
   - TrainCompanion – Compartment Navigation System (Doubly Linked List)
   - TextEditor – Undo/Redo Functionality (Stack)
+  - TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
 
 🔗*Code Link* <br> 
 👉 [Day 7 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
+
+### 📅 Day 8 – Scenario - Based Problems Of Data Structures
+*(Date: 13-Jan-2026)*
+
+- Practiced Scenario-based problems involving data structures such as linked lists, stacks, queues, hashmaps, and functions.
+
+  - SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+  - ParcelTracker – Delivery Chain Management (Singly Linked List)
+  - ExamProctor – Online Exam Review System (Stack + HashMap + Functions)
+
+🔗*Code Link* <br> 
+👉 [Day 8 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
 
 ---
