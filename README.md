@@ -540,3 +540,19 @@
 
 ---
 
+### 📅 Day 9  – Scenario - Based Problems Of Data Structures
+*(Date: 15-Jan-2026)*
+
+- Practiced Scenario-based problems on sorting such as bubble sort, insetion sort, quick sort, and merge sort
+
+  -  HospitalQueue – Patient Sorting by Criticality (Bubble Sort)
+  - SmartShelf – Real-Time Book Arrangement (Insertion Sort)
+  - ZipZipMart – Daily Sales Summary Report (Merge Sort)
+  - EventManager – Ticket Price Optimizer (Quick Sort)
+  - ExamCell – Student Rank Generator (Merge Sort)
+
+🔗*Code Link* <br> 
+👉 [Day 9 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
+
