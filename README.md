@@ -556,3 +556,16 @@
 
 ---
 
+### 📅 Day 10  – Scenario - Based Problems Of Data Structures
+*(Date: 16-Jan-2026)*
+
+- Practiced Scenario-based problems on sorting such as bubble sort, insetion sort, quick sort, and merge sort
+
+  - RoboWarehouse – Shelf Loading Robot (Insertion Sort)
+  - CinemaHouse – Movie Time Sorting (Bubble Sort)
+  - CropMonitor – Sensor Data Ordering (Quick Sort)
+
+🔗*Code Link* <br> 
+👉 [Day 10 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
