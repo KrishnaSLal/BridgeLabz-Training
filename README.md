@@ -74,7 +74,7 @@
 - Studied Big-O Notation
 - Learned Time Complexity Analysis
 - Learned Space Complexity Analysis
-- Undrstood Best, Worst, and Average Case Complexities
+- Understood Best, Worst, and Average Case Complexities
 - Explored Practical Guidelines for Optimizing Java Code
 
 🔗*Code Link* <br> 
@@ -152,3 +152,20 @@
 👉 [Day 10 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
 
 ---
+
+### 📅 Day 11  – Scenario - Based Problems Of Data Structures
+*(Date: 17-Jan-2026)*
+
+- Practiced Scenario-based problems on sorting such as bubble sort, insetion sort, quick sort, and merge sort
+
+  - ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+  - FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+  - IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+  - SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+
+🔗*Code Link* <br> 
+👉 [Day 11 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
+
+
