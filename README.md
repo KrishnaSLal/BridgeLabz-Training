@@ -540,6 +540,24 @@
 
 ---
 
+## 📅 week 4 - Java Collections, Streams
+
+### Day 1 - Java Generics
+*(Date: 15-Jan-2026)*
+
+- Introduction to Generics
+- Studied Type Parameters
+- Explored Generic Classes
+- Explored Generic Methods
+- Learned Bounded Type Parameters
+- Explored Wildcard
+
+🔗*Code Link* <br>
+👉 [Day 1 - Java Generics](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaGenerics/src/com/javagenerics)
+
+---
+
+
 ### 📅 Day 9  – Scenario - Based Problems Of Data Structures
 *(Date: 15-Jan-2026)*
 
@@ -556,6 +574,8 @@
 
 ---
 
+
+
 ### 📅 Day 10  – Scenario - Based Problems Of Data Structures
 *(Date: 16-Jan-2026)*
 
@@ -569,3 +589,31 @@
 👉 [Day 10 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
 
 ---
+
+### 📅 Day 11  – Scenario - Based Problems Of Data Structures
+*(Date: 17-Jan-2026)*
+
+- Practiced Scenario-based problems on sorting such as bubble sort, insetion sort, quick sort, and merge sort
+
+  - ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+  - FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+  - IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+  - SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+
+🔗*Code Link* <br> 
+👉 [Day 11 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
+
+### 📅 Day 16 – Practiced Scenario-based Problems
+*(Date: 17-Jan-2026)* 
+
+- Solved Scenario based problems
+ - GeoMeasure Solutions
+ -  Bag-n-Ball Organizer
+
+🔗*Code Link* <br> 
+👉[Day 15 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
+
