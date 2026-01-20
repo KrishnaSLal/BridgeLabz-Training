@@ -219,3 +219,15 @@
 👉[Day 15 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
+
+### 📅 Day 16 – Practiced Scenario-based Problems
+*(Date: 17-Jan-2026)* 
+
+- Solved Scenario based problems
+ - GeoMeasure Solutions
+ -  Bag-n-Ball Organizer
+
+🔗*Code Link* <br> 
+👉[Day 15 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
