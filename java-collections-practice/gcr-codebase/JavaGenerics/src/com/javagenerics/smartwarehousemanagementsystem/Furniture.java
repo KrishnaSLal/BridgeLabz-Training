@@ -1,3 +1,4 @@
+
 package com.javagenerics.smartwarehousemanagementsystem;
 
 class Furniture extends WarehouseItem {
