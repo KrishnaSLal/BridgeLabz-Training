@@ -540,9 +540,9 @@
 
 ---
 
-## 📅 week 4 - Java Collections, Streams
+## Week 4 - Java Collections, Streams
 
-### Day 1 - Java Generics
+### 📅 Day 1 - Java Generics
 *(Date: 15-Jan-2026)*
 
 - Introduction to Generics
