@@ -169,3 +169,20 @@
 ---
 
 
+### 📅 Day 12  – Scenario - Based Problems Of Data Structures
+*(Date: 19-Jan-2026)*
+
+- Practiced Scenario-based problems on sorting such as merge sort, quick sort, and bubble sort
+
+  - EduResults – Rank Sheet Generator (Merge Sort)
+  - FlashDealz – Product Sorting by Discount (Quick Sort)
+  - FitnessTracker – Daily Step Count Ranking (Bubble Sort)
+
+🔗*Code Link* <br> 
+👉 [Day 12 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
+
+
+
+
