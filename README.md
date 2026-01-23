@@ -228,6 +228,17 @@
  -  Bag-n-Ball Organizer
 
 🔗*Code Link* <br> 
-👉[Day 15 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+👉[Day 16 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
+
+---
+
+### 📅 Day 17 – Practiced Scenario-based Problems
+*(Date: 19-Jan-2026)* 
+
+- Solved Scenario based problems
+ - Address Book System
+ 
+🔗*Code Link* <br> 
+👉[Day 17 -Scenario-based problem](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/JavaOopsScenarioBased/src)
 
 ---
