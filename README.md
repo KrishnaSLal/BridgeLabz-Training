@@ -183,6 +183,18 @@
 
 ---
 
+### 📅 Day 13  – Scenario - Based Problems Of Data Structures
+*(Date: 20-Jan-2026)*
 
+- Practiced Scenario-based problems on sorting such as insertion sort, merge sort, and quick sort
+
+  - MovieTime – Theater Show Listings (Insertion Sort)
+  - FoodFest – Sorting Stalls by Customer Footfall (Merge Sort)
+  - GamerZone – High Score Ranking System (Quick Sort)
+
+🔗*Code Link* <br> 
+👉 [Day 13 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
 
 
