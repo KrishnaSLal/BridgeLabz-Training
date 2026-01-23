@@ -12,6 +12,7 @@ package com.flashdealz;
 
 import java.util.Scanner;
 
+
 public class MainFlashDealz{
    public static void main(String[] args) {
 
