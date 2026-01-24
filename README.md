@@ -658,4 +658,15 @@
 ---
 
 
+### 📅 Day 14  – Scenario - Based Problems Of Data Structures
+*(Date: 21-Jan-2026)*
 
+- Practiced Scenario-based problems on sorting such as insertion sort, merge sort, and quick sort
+
+  - TailorShop – Sorting Orders by Delivery Deadline (Insertion Sort)
+  - MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
+
+🔗*Code Link* <br> 
+👉 [Day 14 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
+---
