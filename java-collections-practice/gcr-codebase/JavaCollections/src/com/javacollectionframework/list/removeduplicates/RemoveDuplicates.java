@@ -1,4 +1,4 @@
-package com.javacollectionframework.removeduplicates;
+package com.javacollectionframework.list.removeduplicates;
 
 import java.util.*;
 
