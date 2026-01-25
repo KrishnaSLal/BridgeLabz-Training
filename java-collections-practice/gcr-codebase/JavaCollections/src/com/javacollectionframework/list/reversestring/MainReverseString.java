@@ -1,4 +1,4 @@
-package com.javacollectionframework.reversestring;
+package com.javacollectionframework.list.reversestring;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
