@@ -1,4 +1,4 @@
-package com.javacollectionframework.rotateelement;
+package com.javacollectionframework.list.rotateelement;
 
 import java.util.*;
 
