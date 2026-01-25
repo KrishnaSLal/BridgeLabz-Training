@@ -1,4 +1,4 @@
-package com.javacollectionframework.findingelement;
+package com.javacollectionframework.list.findingelement;
 
 import java.util.*;
 
