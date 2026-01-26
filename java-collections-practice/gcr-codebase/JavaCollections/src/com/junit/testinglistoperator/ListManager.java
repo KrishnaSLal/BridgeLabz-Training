@@ -9,7 +9,7 @@ public class ListManager {
     }
 
     public void removeElement(List<Integer> list, int element) {
-        list.remove(Integer.valueOf(element)); // removes by value, not index
+        list.remove(Integer.valueOf(element)); // IMPORTANT
     }
 
     public int getSize(List<Integer> list) {

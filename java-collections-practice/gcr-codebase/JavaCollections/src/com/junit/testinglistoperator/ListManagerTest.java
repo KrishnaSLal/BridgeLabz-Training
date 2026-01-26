@@ -1,19 +1,17 @@
 package com.junit.testinglistoperator;
 
-package com.example;
-
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
-class ListManagerTest {
+public class ListManagerTest {
 
     ListManager manager = new ListManager();
 
     @Test
-    void testAddElement() {
+    public void testAddElement() {
         List<Integer> list = new ArrayList<>();
 
         manager.addElement(list, 10);
@@ -25,7 +23,7 @@ class ListManagerTest {
     }
 
     @Test
-    void testRemoveElement() {
+    public void testRemoveElement() {
         List<Integer> list = new ArrayList<>();
         list.add(10);
         list.add(20);
@@ -38,15 +36,14 @@ class ListManagerTest {
     }
 
     @Test
-    void testGetSize() {
+    public void testGetSize() {
         List<Integer> list = new ArrayList<>();
 
         assertEquals(0, manager.getSize(list));
 
-        list.add(5);
-        list.add(15);
+        manager.addElement(list, 5);
+        manager.addElement(list, 15);
 
         assertEquals(2, manager.getSize(list));
     }
 }
-
