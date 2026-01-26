@@ -575,6 +575,23 @@
 ---
 
 
+### 📅 Day 2 - Java Collections
+*(Date: 16-Jan-2026)*
+
+- Overview of collection framework
+- Explored Hierarchy of Collection Framework
+- List Interface and Implementing Classes
+- Explored Set Interface and Implementing Classes
+- Explored Queue and Deque Interfaces
+- Studied Map Interface and Its Implementations
+- Comparison of Different Implementations
+- Understood Real-World Use Cases and Best Practices. 
+
+
+🔗*Code Link* <br>
+👉 [Day 2 - Java Collections](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollections/src/com/javacollectionframework)
+
+---
 
 ### 📅 Day 10  – Scenario - Based Problems Of Data Structures
 *(Date: 16-Jan-2026)*
