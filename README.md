@@ -634,6 +634,26 @@
 
 ---
 
+### 📅 Day 3 - Java Streams
+*(Date: 19-Jan-2026)*
+
+- Overview of Java I/O Streams
+- Explored Types of Streams
+  1. File Streams
+  2. Object Streams
+  3. ByteArray Streams
+  4. Buffered Streams
+  5. Reader and Writer
+- Understood Key Considerations
+- Explored Best Practices
+
+
+🔗*Code Link* <br>
+👉 [Day 3 - Java Streams](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollections/src/com/javastreams)
+
+---
+
+
 ### 📅 Day 12  – Scenario - Based Problems Of Data Structures
 *(Date: 19-Jan-2026)*
 
