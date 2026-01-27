@@ -694,6 +694,34 @@
 
 ---
 
+### 📅 Day 5 - Regex & Junit
+*(Date: 21-Jan-2026)*
+
+- Overview of Regex, MetaCharacter, Quantifier
+- Explored Common Patterns:
+   - Email Validation
+   - Password Strength
+   - Phone Number Format 
+- Java Regex API 
+   - Pattern
+   - Matcher
+- Explored various methods:
+   - find()
+   - matches()
+   - replaceAll()
+- Introduction to Junit Framework
+- Learned JUnit Annotations
+- Writing Test Cases
+- Explored Structure of a Test Class & Assertions
+
+🔗*Code Link* <br>
+👉 [Day 5 - Regex](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollections/src/com/regex)
+
+🔗*Code Link* <br>
+👉 [Day 5 - Junit](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollections/src/com/junit)
+
+---
+
 
 ### 📅 Day 14  – Scenario - Based Problems Of Data Structures
 *(Date: 21-Jan-2026)*
