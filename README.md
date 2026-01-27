@@ -64,11 +64,11 @@
   3. Custom Exceptions
 
 - Handling Exceptions 
- - try-catch blocks
- - try-catch-finally blocks
- - try-with-resources statement
- - throws clause
- - throw statement
+  - try-catch blocks
+  - try-catch-finally blocks
+  - try-with-resources statement
+  - throws clause
+  - throw statement
 
 - Creating Custom Exceptions
 - Extending Exception Class
@@ -79,4 +79,31 @@
 
 ---
 
+### 📅 Day 5 - Regex & Junit
+*(Date: 21-Jan-2026)*
+
+- Overview of Regex, MetaCharacter, Quantifier
+- Explored Common Patterns:
+   - Email Validation
+   - Password Strength
+   - Phone Number Format 
+- Java Regex API 
+   - Pattern
+   - Matcher
+- Explored various methods:
+   - find()
+   - matches()
+   - replaceAll()
+- Introduction to Junit Framework
+- Learned JUnit Annotations
+- Writing Test Cases
+- Explored Structure of a Test Class & Assertions
+
+🔗*Code Link* <br>
+👉 [Day 5 - Regex](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollections/src/com/regex)
+
+🔗*Code Link* <br>
+👉 [Day 5 - Junit](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollections/src/com/junit)
+
+---
 
