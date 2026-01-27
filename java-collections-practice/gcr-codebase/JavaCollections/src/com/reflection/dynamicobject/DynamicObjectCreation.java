@@ -9,25 +9,20 @@ public class DynamicObjectCreation {
         Scanner scanner = new Scanner(System.in);
 
         try {
-            // Take user input
             System.out.print("Enter student ID: ");
             int id = scanner.nextInt();
             scanner.nextLine();
 
             System.out.print("Enter student name: ");
             String name = scanner.nextLine();
+            
+            Class<?> clazz = Class.forName("com.reflection.dynamicobject.Student");
 
-            // Load class dynamically
-            Class<?> clazz = Class.forName("Student");
-
-            // Get parameterized constructor
             Constructor<?> constructor =
-                    clazz.getDeclaredConstructor(int.class, String.class);
+                clazz.getDeclaredConstructor(int.class, String.class);
 
-            // Create object dynamically (no new keyword)
             Object obj = constructor.newInstance(id, name);
 
-            // Cast and call method
             Student student = (Student) obj;
             student.display();
 

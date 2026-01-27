@@ -1,6 +1,6 @@
 package com.reflection.dynamicobject;
 
-class Student {
+public class Student {
 
     private int id;
     private String name;
