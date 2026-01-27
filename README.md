@@ -735,3 +735,24 @@
 👉 [Day 14 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
 
 ---
+
+### 📅 Day 6 - Annotations & Reflection
+*(Date: 22-Jan-2026)*
+
+- Introduction to Annotations
+- Explored Common Built-in Annotations
+- Created Custom Annotations
+- Explored Advanced Custom Annotations
+- Real-World Use Cases
+
+- Introduction to Reflection
+- Using Reflection in Java
+- Explored Annotations and Reflection
+
+🔗*Code Link* <br>
+👉 [Day 6 - Annotations](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollections/src/com/annotations)
+
+🔗*Code Link* <br>
+👉 [Day 6 - Reflection](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollections/src/com/reflection)
+
+---
