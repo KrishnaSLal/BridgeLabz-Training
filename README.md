@@ -12,7 +12,7 @@
 - Learned the key features of data structures in java.
 - Studied and implemented singly linked list, doubly linked list, double linked list and circular linked list.
 
-🔗 *Code Link:*  
+🔗*Code Link* <br>  
 👉 [Day 1 – LinkedList](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/linkedlist)
 
 ---
@@ -24,7 +24,7 @@
 - Studied Queue and its implementation
 - Studied HashMap and Hashing Functions and its implementation
 
-🔗 *Code Link:*  
+🔗*Code Link* <br>  
 👉 [Day 2 – Stack and Queue](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stacksandqueues)
 
 👉 [Day 2 – HashMap and HashFunction](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/hashmapsandhashfunctions)
@@ -49,6 +49,7 @@
 
 - Implemented the sorting techniques
 
+🔗*Code Link* <br> 
 👉 [Day 3 – Sorting Algorithms](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/sortingalgorithms)
 
 ---
