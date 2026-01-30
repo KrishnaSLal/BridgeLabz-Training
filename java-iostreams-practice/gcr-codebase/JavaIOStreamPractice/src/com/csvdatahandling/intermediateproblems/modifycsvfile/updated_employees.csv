@@ -1,8 +1,5 @@
-id,name,department,salary
-101,Krishna,IT,93500.00000000001
-102,Nandana,HR,65000.0
-103,Sakshi,Finance,95000.0
-104,Neha,IT,79200.0
-105,Anil,Admin,55000.0
-106,Priya,IT,108900.00000000001
-107,Luna,Finance,88000.0
+id,name,email,phone,department,salary
+101,Krishna,krishna@gmail.com,9.87654321E9
+102,Asha,ashagmail.com,9.87654321E8
+103,Vikram,vikram@company.com,9.988776655E9
+104,Neha,neha@.com,12345.0
