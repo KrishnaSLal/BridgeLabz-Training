@@ -2,6 +2,9 @@
 
 package com.functionalinterface.predicate.employeesystem;
 
+import java.util.function.Predicate;
+import java.util.Scanner;
+
 class Employee {
     String name;
     double salary;
@@ -11,15 +14,30 @@ class Employee {
         this.salary = salary;
     }
 }
+
 public class MainEmployee {
     public static void main(String[] args) {
 
-        Employee e1 = new Employee("Rahul", 45000);
-        Employee e2 = new Employee("Neha", 25000);
+    	Scanner sc = new Scanner(System.in);
+    	
+        System.out.println("Enter the name: ");
+        String name = sc.nextLine();
+        
+        System.out.println("Enter the salary: ");
+        double salary = sc.nextDouble();
 
-        Salary salaryCheck =e -> e.salary > 30000;
+        Employee employee = new Employee(name, salary);
+        
+        Predicate<Employee> highSalary = e -> e.salary > 30000;
 
-        System.out.println("This employee's salary is higher than 30,000: "+ salaryCheck.check(e1));
-        System.out.println("This employee's salary is higher than 30,000: "+ salaryCheck.check(e2));
+        if (highSalary.test(employee)) {
+            System.out.println("Salary is greater than 30000");
+        } else {
+            System.out.println("Salary is not greater than 30000");
+        }
+
+        
+        sc.close();
     }
 }
+

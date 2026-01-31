@@ -2,6 +2,7 @@
 
 package com.functionalinterface.predicate.studentsystem;
 
+import java.util.function.Predicate;
 import java.util.Scanner;
 
 class Student {
@@ -27,9 +28,9 @@ public class MainStudentSystem {
 
         Student student = new Student(name, attendance);
 
-        ExamEligibility eligibility =s -> s.attendance >= 75;
+        Predicate<Student> eligibility = s -> s.attendance >= 75;
 
-        if (eligibility.check(student)) {
+        if (eligibility.test(student)) {
             System.out.println("Eligible for exam");
         } else {
             System.out.println("Not eligible for exam");
@@ -38,4 +39,3 @@ public class MainStudentSystem {
         sc.close();
     }
 }
-
