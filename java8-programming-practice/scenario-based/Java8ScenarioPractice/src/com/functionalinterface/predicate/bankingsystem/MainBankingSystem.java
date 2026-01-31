@@ -1,6 +1,6 @@
 //In a bank application, validate whether withdrawal amount is valid using Predicate.
 
-package com.functionalinterface.predicate.studentsystem.bankingsystem;
+package com.functionalinterface.predicate.bankingsystem;
 
 class BankAccount {
     double balance;

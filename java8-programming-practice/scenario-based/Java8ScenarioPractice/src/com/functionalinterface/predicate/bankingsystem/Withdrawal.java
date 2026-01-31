@@ -1,4 +1,4 @@
-package com.functionalinterface.predicate.studentsystem.bankingsystem;
+package com.functionalinterface.predicate.bankingsystem;
 
 @FunctionalInterface
 interface WithdrawalCheck {
