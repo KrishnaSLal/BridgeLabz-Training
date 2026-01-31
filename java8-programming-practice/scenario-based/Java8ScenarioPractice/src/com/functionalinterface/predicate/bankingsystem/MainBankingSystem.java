@@ -1,6 +1,8 @@
 //In a bank application, validate whether withdrawal amount is valid using Predicate.
-
 package com.functionalinterface.predicate.bankingsystem;
+
+import java.util.Scanner;
+import java.util.function.Predicate;
 
 class BankAccount {
     double balance;
@@ -9,14 +11,26 @@ class BankAccount {
         this.balance = balance;
     }
 }
+
 public class MainBankingSystem {
     public static void main(String[] args) {
 
-        BankAccount account = new BankAccount(10000);
+        Scanner sc = new Scanner(System.in);
 
-        WithdrawalCheck check = (amount, acc) -> amount > 0 && amount <= acc.balance;
+        System.out.print("Enter the balance: ");
+        double balance = sc.nextDouble();
 
-        System.out.println("Is this withdrawal valid? :" + check.isValid(5000, account));   
-        System.out.println("Is this withdrawal valid? :" + check.isValid(15000, account)); 
+        System.out.print("Enter withdrawal amount: ");
+        double amount = sc.nextDouble();
+
+        BankAccount account = new BankAccount(balance);
+
+ 
+        Predicate<Double> validWithdrawal = amt -> amt > 0 && amt <= account.balance;
+
+
+        System.out.println("Is this withdrawal possible? : " + validWithdrawal.test(amount));
+
+        sc.close();
     }
 }
