@@ -4,5 +4,5 @@ package com.functionalinterface.function.studentmarks;
 
 public interface Grades {
    
-	int gradePredictor();
+	double gradePredictor(double marks);
 }

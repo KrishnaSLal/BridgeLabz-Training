@@ -6,14 +6,6 @@ package com.functionalinterface.function.studentmarks;
 import java.util.Scanner;
 import java.util.function.Function;
 
-class Grade{
-	
-	double marks;
-	
-	Grade(double marks){
-		this.marks = marks;
-	}
-}
 public class MainStudentGrades {
 	public static void main(String[] args) {
 		
