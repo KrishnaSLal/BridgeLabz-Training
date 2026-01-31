@@ -1,3 +1,5 @@
+//In a student system, use a Predicate to check if a student is eligible for exam (attendance ≥ 75%).
+
 package com.functionalinterface.predicate.studentsystem;
 
 import java.util.Scanner;

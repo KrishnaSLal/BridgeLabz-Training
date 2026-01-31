@@ -1,4 +1,4 @@
-package com.functionalinterface.predicate.studentsystem.employeesystem;
+package com.functionalinterface.predicate.employeesystem;
 
 @FunctionalInterface
 interface Salary {

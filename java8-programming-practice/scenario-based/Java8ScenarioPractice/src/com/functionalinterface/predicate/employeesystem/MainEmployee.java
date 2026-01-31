@@ -1,6 +1,6 @@
 //In an employee system, check if salary is greater than 30,000 using Predicate.
 
-package com.functionalinterface.predicate.studentsystem.employeesystem;
+package com.functionalinterface.predicate.employeesystem;
 
 class Employee {
     String name;
