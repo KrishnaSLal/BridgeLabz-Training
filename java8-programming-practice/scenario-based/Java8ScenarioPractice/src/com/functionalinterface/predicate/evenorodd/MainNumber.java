@@ -1,3 +1,5 @@
+//Use Predicate to check whether a number is even or odd.
+
 package com.functionalinterface.predicate.evenorodd;
 
 import java.util.Scanner;
