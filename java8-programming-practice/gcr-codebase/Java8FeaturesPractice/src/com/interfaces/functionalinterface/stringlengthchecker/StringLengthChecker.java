@@ -1,3 +1,7 @@
+//String Length Checker
+//○ Scenario: Check if a message exceeds character limit.
+//○ Task: Use Function<String, Integer>.
+
 package com.interfaces.functionalinterface.stringlengthchecker;
 
 import java.util.function.Function;
