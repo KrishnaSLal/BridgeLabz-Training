@@ -1,4 +1,4 @@
-package com.interfaces.staticmethodsininterface;
+package com.interfaces.staticmethodsininterface.passwordvalidator;
 
 interface SecurityUtils {
 
