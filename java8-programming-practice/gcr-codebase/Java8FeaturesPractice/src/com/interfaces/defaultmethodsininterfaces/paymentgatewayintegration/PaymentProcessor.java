@@ -1,4 +1,4 @@
-package com.interfaces.defaultmethodsininterfaces;
+package com.interfaces.defaultmethodsininterfaces.paymentgatewayintegration;
 
 interface PaymentProcessor {
 

@@ -4,7 +4,7 @@
 //○ Task: Add a default refund() method in the PaymentProcessor interface.
 
 
-package com.interfaces.defaultmethodsininterfaces;
+package com.interfaces.defaultmethodsininterfaces.paymentgatewayintegration;
 
 import java.util.Scanner;
 
