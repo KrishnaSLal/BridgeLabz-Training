@@ -1,3 +1,7 @@
+//Name Uppercasing
+//○ Scenario: Convert all employee names in uppercase for an HR letter.
+//○ Task: Use String::toUpperCase in a stream.
+
 package com.methodreferences.nameuppercasing;
 
 import java.util.*;
