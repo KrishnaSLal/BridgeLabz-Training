@@ -1,4 +1,4 @@
-package com.interfaces.functionalinterface;
+package com.interfaces.functionalinterface.temperaturealertsystem;
 
 @FunctionalInterface
 interface TemperatureCheck {
