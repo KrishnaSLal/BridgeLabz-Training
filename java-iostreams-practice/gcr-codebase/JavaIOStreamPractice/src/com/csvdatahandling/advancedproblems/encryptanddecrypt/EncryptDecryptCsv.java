@@ -53,7 +53,7 @@ public class EncryptDecryptCsv {
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
 
             String line = br.readLine(); // skip header
-            System.out.println("\n Decrypted Data:");
+            System.out.println("\nsDecrypted Data:");
 
             while ((line = br.readLine()) != null) {
 
