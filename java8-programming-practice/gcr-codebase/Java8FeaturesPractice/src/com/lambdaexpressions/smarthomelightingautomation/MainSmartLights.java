@@ -1,4 +1,4 @@
-package lambdaexpressions.smarthomelightingautomation;
+package com.lambdaexpressions.smarthomelightingautomation;
 
 //Smart Home Lighting Automation
 //○ Scenario: A building has smart lights. Different triggers (motion, time of day, voice
