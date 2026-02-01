@@ -1,3 +1,9 @@
+//Notification Filtering
+//○ Scenario: A hospital app sends patient alerts. Based on user preference, only
+//certain alerts should be shown.
+//○ Task: Use lambdas with Predicate to filter alerts.
+
+
 package com.lambdaexpressions.notificationfiltering;
 
 import java.util.*;
