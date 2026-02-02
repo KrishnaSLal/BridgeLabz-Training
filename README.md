@@ -23,7 +23,7 @@
 
 ---
 
-### 📅 Day 2 – Lambda expressions
+### 📅 Day 2 – Stream API & Collectors
 *(Date: 28-Jan-2026)*
 
 - Overview of Stream API
@@ -37,5 +37,22 @@
 
 🔗*Code Link* <br>
 👉 [Day 2 - Stream API & Collectors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8FeaturesPractice/src/com/streamapi)
+
+
+🔗*Code Link* <br>
+👉[Day 2 - Collectors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8FeaturesPractice/src/com/collectors)
+
+---
+
+###### 📅 Day 3 – Practiced Scenario-Based Problems
+*(Date: 29-Jan-2026)*
+
+- Practiced Scenario-Based Problems on Functional Interface
+  - Consumer
+  - Predicate
+  - Function
+
+🔗*Code Link* <br>
+👉[Day 3 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/functionalinterface)
 
 ---
