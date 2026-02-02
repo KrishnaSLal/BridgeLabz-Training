@@ -128,3 +128,18 @@
 👉 [Day 6 - Reflection](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollections/src/com/reflection)
 
 ---
+
+### 📅 Day 7 - Practiced Scenario-Based Problems
+*(Date: 23-Jan-2026)*
+
+- Practiced Scenario-Based Problems
+  - ResumeAnalyzer – Smart Resume Filtering System
+  - TravelLog – Trip Organizer for Backpackers
+  - FeedbackGuru – Smart Survey Analyzer
+  - CodeRepoCleaner – Java File Scanner and Organizer
+  - ExamScanner – Digital Answer Sheet Validator
+
+🔗*Code Link* <br>
+👉 [Day 7 - Reflection](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based)
+
+---
