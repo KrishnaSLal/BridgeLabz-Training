@@ -214,3 +214,13 @@ Queue)
 👉 [Day 14 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
 
 ---
+
+### 📅 Day 15  – Scenario - Based Problems Of Data Structures
+*(Date: 22-Jan-2026)*
+
+- Practiced Scenario-Based problems on Trees
+  - Binary Search Tree
+  - AVL Tree
+
+🔗*Code Link* <br> 
+👉 [Day 15 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/tree)
