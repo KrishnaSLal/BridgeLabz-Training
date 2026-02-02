@@ -10,7 +10,7 @@
 
 - Explored and Implemented Different Types of Interfaces
   - Normal Interface
-  - FUnctional Interface
+  - Functional Interface
   - Marker Interface
 
 - Defining and Implementing Static and Default Methods in Interfaces
@@ -44,15 +44,27 @@
 
 ---
 
-###### 📅 Day 3 – Practiced Scenario-Based Problems
+### 📅 Day 3 – Practiced Scenario-Based Problems
 *(Date: 29-Jan-2026)*
 
 - Practiced Scenario-Based Problems on Functional Interface
-  - Consumer
   - Predicate
   - Function
 
 🔗*Code Link* <br>
 👉[Day 3 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/functionalinterface)
+
+---
+
+### 📅 Day 4 – Practiced Scenario-Based Problems
+*(Date: 30-Jan-2026)*
+
+- Practiced Scenario-Based Problems on Functional Interface
+  - Predicate
+  - Consumer
+  - Function
+
+🔗*Code Link* <br>
+👉[Day 4 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/functionalinterface)
 
 ---
