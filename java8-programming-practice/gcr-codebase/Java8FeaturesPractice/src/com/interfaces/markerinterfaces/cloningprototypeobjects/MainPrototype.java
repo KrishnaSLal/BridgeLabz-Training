@@ -1,3 +1,7 @@
+//2. Cloning Prototype Objects
+//○ Scenario: Clone a predefined object model.
+//○ Task: Use Cloneable marker interface.
+
 package com.interfaces.markerinterfaces.cloningprototypeobjects;
 
 public class MainPrototype {
