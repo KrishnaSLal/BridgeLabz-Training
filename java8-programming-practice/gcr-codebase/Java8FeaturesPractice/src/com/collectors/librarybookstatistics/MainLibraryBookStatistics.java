@@ -1,7 +1,4 @@
-//Library Book Statistics
-//Given a list of books with their genres and number of pages, use
-//Collectors.summarizingInt()
-//to find total pages, average pages, and maximum pages per genre.
+
 
 
 package com.collectors.librarybookstatistics;
