@@ -766,6 +766,23 @@
 🔗*Code Link* <br> 
 👉 [Day 15 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/tree)
 
+---
+
+## Week 5 - Io Programming
+
+### 📅 Day 1 - CSV Data Handling
+*(Date: 27-Jan-2026)*
+
+- Introduction to CSV
+- Reading CSV Files
+- Writing CSV Files
+- Parsing CSV Data
+- Data Validation
+
+🔗*Code Link* <br>
+👉 [Day 1 - CSV Data Handling](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/JavaIOStreamPractice/src/com/csvdatahandling)
+
+---
 
 ### 📅 Day 7 - Practiced Scenario-Based Problems
 *(Date: 23-Jan-2026)*
@@ -782,3 +799,25 @@
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+### 📅 Day 8 - Practiced Scenario-Based Problems
+*(Date: 24-Jan-2026)*
+
+- Practiced Scenario-Based Problems
+  - MedInventory – Smart Hospital Inventory Tracker
+  - ChatLogParser – Messaging Pattern Analyzer
+  - SongVault – Personal Music Library Manager
+  - ExamResultUploader – Bulk Marks Processing
+  - DealTracker – E-Commerce Discount Validator
+
+  🔗*Code Link* <br>
+👉 [Day 8 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/JavaCollectionScenarioBased/src/com)
