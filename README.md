@@ -866,3 +866,18 @@
 👉[Day 2 - Collectors](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8FeaturesPractice/src/com/collectors)
 
 ---
+
+
+### 📅 Day 3 – Practiced Scenario-Based Problems
+*(Date: 29-Jan-2026)*
+
+- Practiced Scenario-Based Problems on Functional Interface
+  - Predicate
+  - Function
+
+🔗*Code Link* <br>
+👉[Day 3 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/functionalinterface)
+
+---
+
+
