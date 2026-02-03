@@ -140,6 +140,19 @@
   - ExamScanner – Digital Answer Sheet Validator
 
 🔗*Code Link* <br>
-👉 [Day 7 - Reflection](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based)
+👉 [Day 7 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based)
 
 ---
+
+### 📅 Day 8 - Practiced Scenario-Based Problems
+*(Date: 24-Jan-2026)*
+
+- Practiced Scenario-Based Problems
+  - MedInventory – Smart Hospital Inventory Tracker
+  - ChatLogParser – Messaging Pattern Analyzer
+  - SongVault – Personal Music Library Manager
+  - ExamResultUploader – Bulk Marks Processing
+  - DealTracker – E-Commerce Discount Validator
+
+  🔗*Code Link* <br>
+👉 [Day 8 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/JavaCollectionScenarioBased/src/com)
