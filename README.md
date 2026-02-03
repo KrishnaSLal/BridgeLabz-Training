@@ -723,7 +723,7 @@
 ---
 
 
-### 📅 Day 14  – Scenario - Based Problems Of Data Structures
+### 📅 Day 14  – Scenario - Based Problems Of Data Structures 
 *(Date: 21-Jan-2026)*
 
 - Practiced Scenario-based problems on sorting such as insertion sort, merge sort, and quick sort
@@ -734,7 +734,6 @@
 🔗*Code Link* <br> 
 👉 [Day 14 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
 
----
 
 ### 📅 Day 6 - Annotations & Reflection
 *(Date: 22-Jan-2026)*
@@ -756,3 +755,30 @@
 👉 [Day 6 - Reflection](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollections/src/com/reflection)
 
 ---
+
+### 📅 Day 15  – Scenario - Based Problems Of Data Structures
+*(Date: 22-Jan-2026)*
+
+- Practiced Scenario-Based problems on Trees
+  - Binary Search Tree
+  - AVL Tree
+
+🔗*Code Link* <br> 
+👉 [Day 15 - Scenario-based problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/tree)
+
+
+### 📅 Day 7 - Practiced Scenario-Based Problems
+*(Date: 23-Jan-2026)*
+
+- Practiced Scenario-Based Problems
+  - ResumeAnalyzer – Smart Resume Filtering System
+  - TravelLog – Trip Organizer for Backpackers
+  - FeedbackGuru – Smart Survey Analyzer
+  - CodeRepoCleaner – Java File Scanner and Organizer
+  - ExamScanner – Digital Answer Sheet Validator
+
+🔗*Code Link* <br>
+👉 [Day 7 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based)
+
+---
+
