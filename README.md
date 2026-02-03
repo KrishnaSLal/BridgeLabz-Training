@@ -821,3 +821,27 @@
 
   🔗*Code Link* <br>
 👉 [Day 8 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/JavaCollectionScenarioBased/src/com)
+
+
+## Week 06 : Java 8 & its Features
+
+### 📅 Day 1 – Lambda expressions
+*(Date: 27-Jan-2026)*
+
+- Explored Lambda Expressions
+- Explored Method References
+
+- Explored and Implemented Different Types of Interfaces
+  - Normal Interface
+  - Functional Interface
+  - Marker Interface
+
+- Defining and Implementing Static and Default Methods in Interfaces
+
+🔗*Code Link* <br>
+👉 [Day 1 - Lambda Expressions & Method References](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8FeaturesPractice/src/com)
+
+
+👉 [Day 1 - Interfaces](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8FeaturesPractice/src/com/interfaces)
+
+---
