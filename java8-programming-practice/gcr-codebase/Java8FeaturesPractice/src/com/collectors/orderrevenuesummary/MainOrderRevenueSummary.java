@@ -16,7 +16,7 @@ public class MainOrderRevenueSummary {
 
         System.out.print("Enter number of orders: ");
         int n = sc.nextInt();
-        sc.nextLine(); // consume newline
+        sc.nextLine(); 
 
         for (int i = 0; i < n; i++) {
             System.out.println("\nEnter details for Order " + (i + 1));
@@ -26,7 +26,7 @@ public class MainOrderRevenueSummary {
 
             System.out.print("Order Amount: ");
             double amount = sc.nextDouble();
-            sc.nextLine(); // consume newline
+            sc.nextLine();
 
             orders.add(new Order(customer, amount));
         }
@@ -40,7 +40,7 @@ public class MainOrderRevenueSummary {
 
         System.out.println("\nOrder Revenue Summary:");
         revenuePerCustomer.forEach((customer, total) ->
-                System.out.println(customer + " → ₹" + total));
+                System.out.println(customer + " - Rs." + total));
 
         sc.close();
     }
