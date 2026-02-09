@@ -56,6 +56,19 @@
 
 ---
 
+
+### 📅 Day 3 – Solved a Workshop Problem
+*(Date: 29-Jan-2026)*
+
+- Workshop - Smart City Transport & Service Management System
+
+🔗*Code Link* <br>
+👉[Day 3 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8FeaturesPractice/src/com/workshop/smartcity)
+
+---
+
+
+
 ### 📅 Day 4 – Practiced Scenario-Based Problems
 *(Date: 30-Jan-2026)*
 
@@ -68,3 +81,5 @@
 👉[Day 4 - Scenario-Based Problems](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com/functionalinterface)
 
 ---
+
+
