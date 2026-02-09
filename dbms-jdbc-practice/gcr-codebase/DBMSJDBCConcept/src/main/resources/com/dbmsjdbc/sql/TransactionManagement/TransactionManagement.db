@@ -1,0 +1,97 @@
+//TRANSACTION MANAGEMENT SYSTEM
+
+//CREATE AN ACCOUNTS TABLE
+
+
+CREATE TABLE Accounts(
+     AccountID INT NOT NULL,
+     AccountHolder VARCHAR(50) NOT NULL,
+     Balance DECIMAL(10,2) NOT NULL
+     );
+	 
+//ADDING DETAILS TO THE TABLE
+
+INSERT INTO Accounts (AccountID, AccountHolder, Balance)
+     VALUES
+     (123, 'Krishna', 1254603.23),
+     (456, 'Arushi', 12458.36),
+     (789, 'Minakshi', 45698.45);
+	 
+Query OK, 3 rows affected (0.03 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM Accounts;
+
++-----------+---------------+------------+
+| AccountID | AccountHolder | Balance    |
++-----------+---------------+------------+
+|       123 | Krishna       | 1254603.23 |
+|       456 | Arushi        |   12458.36 |
+|       789 | Minakshi      |   45698.45 |
++-----------+---------------+------------+
+3 rows in set (0.02 sec)
+
+
+
+//CREATION OF TRANSACTION TABLE
+
+
+
+CREATE TABLE Transactions(
+     TransactionID INT NOT NULL PRIMARY KEY,
+     FromAccount INT,
+     ToAccount INT,
+     Amount Decimal(10, 2) NOT NULL
+     );
+Query OK, 0 rows affected (0.16 sec)
+
+
+//TRANSFER OF MONEY BETWEEN ACCOUNTS
+
+
+START TRANSACTION;
+
+UPDATE Accounts
+SET Balance = Balance - 10000
+WHERE AccountHolder = 'Krishna';
+
+UPDATE Accounts
+SET Balance = Balance + 10000
+WHERE AccountHolder = 'Arushi';
+
+INSERT INTO Transactions (TransactionID, FromAccount, ToAccount, Amount)
+VALUES (
+    1,
+    (SELECT AccountID FROM Accounts WHERE AccountHolder = 'Krishna'),
+    (SELECT AccountID FROM Accounts WHERE AccountHolder = 'Arushi'),
+    10000
+);
+
+COMMIT;
+
+
+
+SELECT * FROM Accounts ;
+
+
++-----------+---------------+------------+
+| AccountID | AccountHolder | Balance    |
++-----------+---------------+------------+
+|       123 | Krishna       | 1234603.23 |
+|       456 | Arushi        |   32458.36 |
+|       789 | Minakshi      |   45698.45 |
++-----------+---------------+------------+
+
+
+//TRANSACTION HISTORY
+
+
+SELECT * FROM Transactions;
+
+
++---------------+-------------+-----------+----------+
+| TransactionID | FromAccount | ToAccount | Amount   |
++---------------+-------------+-----------+----------+
+|             1 |         123 |       456 | 10000.00 |
++---------------+-------------+-----------+----------+
+
