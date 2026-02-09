@@ -1,0 +1,122 @@
+//1. CREATING A TABLE 
+
+ 
+ CREATE TABLE Employee(
+     EmployeeID INT PRIMARY KEY,
+     Name VARCHAR(50),
+     Department VARCHAR(50),
+     Salary INT
+     );
+	 
+	 Query OK, 0 rows affected (0.12 sec)
+
+mysql> Show TABLES;
++----------------------+
+| Tables_in_practicedb |
++----------------------+
+| employee             |
++----------------------+
+
+
+
+//2. ADDING EMPLOYEES TO THE TABLE
+
+
+
+INSERT INTO Employee(EmployeeID, Name, Department, Salary)
+    VALUES
+    (1001, 'Krishna', 'HR', 80000),
+    (1002, 'Minakshi' , 'CS', 45000),
+    (1003, 'Arushi' , 'IT' , 50000),
+    (1004, 'Kartik', 'HR', 70000),
+    (1005, 'Dhamu' , 'CS' , 45000);
+	
+Query OK, 5 rows affected (0.02 sec)
+
+SELECT * FROM Employee ;
++------------+----------+------------+--------+
+| EmployeeID | Name     | Department | Salary |
++------------+----------+------------+--------+
+|       1001 | Krishna  | HR         |  80000 |
+|       1002 | Minakshi | CS         |  45000 |
+|       1003 | Arushi   | IT         |  50000 |
+|       1004 | Kartik   | HR         |  70000 |
+|       1005 | Dhamu    | CS         |  45000 |
++------------+----------+------------+--------+
+
+
+//3. UPDATING SALARY OF AN EMPLOYEE
+
+ UPDATE Employee SET Salary = 50000 WHERE Name = 'Minakshi';
+ 
+Query OK, 1 row affected (0.02 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+
+
+ Select * from Employee;
++------------+----------+------------+--------+
+| EmployeeID | Name     | Department | Salary |
++------------+----------+------------+--------+
+|       1001 | Krishna  | HR         |  80000 |
+|       1002 | Minakshi | CS         |  50000 |
+|       1003 | Arushi   | IT         |  50000 |
+|       1004 | Kartik   | HR         |  70000 |
+|       1005 | Dhamu    | CS         |  45000 |
++------------+----------+------------+--------+
+
+
+
+//4. DELETE AN EMPLOYEE FROM THE TABLE
+
+
+
+DELETE FROM Employee WHERE EmployeeID = 1005;
+
+Query OK, 1 row affected (0.02 sec)
+
+
+Select * FROM Employee;
++------------+----------+------------+--------+
+| EmployeeID | Name     | Department | Salary |
++------------+----------+------------+--------+
+|       1001 | Krishna  | HR         |  80000 |
+|       1002 | Minakshi | CS         |  50000 |
+|       1003 | Arushi   | IT         |  50000 |
+|       1004 | Kartik   | HR         |  70000 |
++------------+----------+------------+--------+
+
+
+//5. SEARCH AN EMPLOYEE BY NAME
+
+SELECT * FROM Employee WHERE Name = 'Krishna';
+
+
++------------+---------+------------+--------+
+| EmployeeID | Name    | Department | Salary |
++------------+---------+------------+--------+
+|       1001 | Krishna | HR         |  80000 |
++------------+---------+------------+--------+
+
+1 row in set (0.00 sec)
+
+
+SELECT * FROM Employee
+    WHERE LOWER(Name) = 'minakshi';
+	
++------------+----------+------------+--------+
+| EmployeeID | Name     | Department | Salary |
++------------+----------+------------+--------+
+|       1002 | Minakshi | CS         |  50000 |
++------------+----------+------------+--------+
+
+
+SELECT * FROM Employee
+    WHERE UPPER(Name) = 'MINAKSHI';
+	
+	
++------------+----------+------------+--------+
+| EmployeeID | Name     | Department | Salary |
++------------+----------+------------+--------+
+|       1002 | Minakshi | CS         |  50000 |
++------------+----------+------------+--------+
