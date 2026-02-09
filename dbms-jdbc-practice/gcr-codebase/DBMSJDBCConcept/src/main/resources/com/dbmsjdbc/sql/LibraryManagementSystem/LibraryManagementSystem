@@ -1,0 +1,177 @@
+//CREATION OF TABLE BOOKS
+
+ CREATE TABLE Books(
+     BookID INT NOT NULL PRIMARY KEY,
+     Title VARCHAR(50)
+    );
+
+
+//INSERT BOOKS TO THE TABLE 
+
+
+ INSERT INTO Books(BookID, Title)
+     VALUES
+     (111, 'The Alchemist'),
+     (112, 'Introduction to C++'),
+     (113, 'Artificial Intelligence'),
+     (114, 'Robinson Crusoe'),
+     (115, 'Harry Potter');
+	 
+	 
+Query OK, 5 rows affected (0.06 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM Books ;
+
+
++--------+-------------------------+
+| BookID | Title                   |
++--------+-------------------------+
+|    111 | The Alchemist           |
+|    112 | Introduction to C++     |
+|    113 | Artificial Intelligence |
+|    114 | Robinson Crusoe         |
+|    115 | Harry Potter            |
++--------+-------------------------+
+
+5 rows in set (0.00 sec)
+
+
+//CREATION OF STUDENT TABLE
+
+
+ CREATE TABLE Students(
+     StudentID INT NOT NULL PRIMARY KEY,
+     Name VARCHAR(50)
+     );
+	 
+Query OK, 0 rows affected (0.08 sec)
+
+
+
+//INSERTION OF DATA INTO THE TABLE 
+
+
+ INSERT INTO Students (StudentID, Name) VALUES
+     (201, 'Krishna'),
+     (202, 'Arushi'),
+     (203, 'Minakshi');
+Query OK, 3 rows affected (0.01 sec)
+
+Records: 3  Duplicates: 0  Warnings: 0
+
+ SELECT * FROM Students ;
++-----------+----------+
+| StudentID | Name     |
++-----------+----------+
+|       201 | Krishna  |
+|       202 | Arushi   |
+|       203 | Minakshi |
++-----------+----------+
+3 rows in set (0.00 sec)
+
+
+
+//CREATION OF BORROWING TABLE
+
+
+CREATE TABLE Borrowing (
+    BorrowID INT NOT NULL PRIMARY KEY,
+      StudentID INT,
+      BookID INT,
+      BorrowDate DATE,
+      DueDate DATE,
+      ReturnDate DATE,
+      Fine DECIMAL(7,2),
+      FOREIGN KEY (StudentID) REFERENCES Students(StudentID),
+      FOREIGN KEY (BookID) REFERENCES Books(BookID)
+      );
+Query OK, 0 rows affected (0.12 sec)
+
+
+//TRANSACTION
+
+INSERT INTO Borrowing (BorrowID, StudentID, BookID, BorrowDate, DueDate, Fine)
+     VALUES (
+         301,
+         201,
+         115,
+         CURRENT_DATE,
+         DATE_ADD(CURRENT_DATE, INTERVAL 7 DAY),
+         0
+     );
+Query OK, 1 row affected (0.01 sec)
+
+  COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+
+ SELECT * FROM Borrowing;
++----------+-----------+--------+------------+------------+------------+------+
+| BorrowID | StudentID | BookID | BorrowDate | DueDate    | ReturnDate | Fine |
++----------+-----------+--------+------------+------------+------------+------+
+|      301 |       201 |    115 | 2026-02-09 | 2026-02-16 | 2026-02-09 | 0.00 |
++----------+-----------+--------+------------+------------+------------+------+
+1 row in set (0.00 sec)
+
+
+//RETURN AND FINE
+
+ UPDATE Borrowing
+    SET ReturnDate = CURRENT_DATE,
+        Fine = GREATEST(DATEDIFF(CURRENT_DATE, DueDate) * 5, 0)
+        WHERE BorrowID = 301;
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 1  Changed: 0  Warnings: 0
+
+
+
+SELECT * FROM Borrowing;
+
+
++----------+-----------+--------+------------+------------+------------+------+
+| BorrowID | StudentID | BookID | BorrowDate | DueDate    | ReturnDate | Fine |
++----------+-----------+--------+------------+------------+------------+------+
+|      301 |       201 |    115 | 2026-02-09 | 2026-02-16 | 2026-02-09 | 0.00 |
++----------+-----------+--------+------------+------------+------------+------+
+
+
+//SEARCH BY TITLE
+
+
+ SELECT * FROM Books WHERE Title = 'Harry Potter';
++--------+--------------+
+| BookID | Title        |
++--------+--------------+
+|    115 | Harry Potter |
++--------+--------------+
+1 row in set (0.04 sec)
+
+//SEARCH BY PARTIAL TITLE
+
+
+SELECT * FROM Books WHERE Title LIKE '%Harr%';
+
+
++--------+--------------+
+| BookID | Title        |
++--------+--------------+
+|    115 | Harry Potter |
++--------+--------------+
+1 row in set (0.00 sec)
+
+//SEARCH BY STUDENT
+
+ SELECT b.BookID, b.Title, br.BorrowDate, br.DueDate, br.ReturnDate, br.Fine
+     FROM Borrowing br
+     JOIN Books b ON br.BookID = b.BookID
+     JOIN Students s ON br.StudentID = s.StudentID
+     WHERE s.Name = 'Krishna';
+	 
+	 
++--------+--------------+------------+------------+------------+------+
+| BookID | Title        | BorrowDate | DueDate    | ReturnDate | Fine |
++--------+--------------+------------+------------+------------+------+
+|    115 | Harry Potter | 2026-02-09 | 2026-02-16 | 2026-02-09 | 0.00 |
++--------+--------------+------------+------------+------------+------+
+1 row in set (0.01 sec)
