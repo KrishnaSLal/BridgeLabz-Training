@@ -12,7 +12,7 @@ public class MainStockPriceLogger {
         // Print each stock price update
         stockPrices.stream()
                    .forEach(price ->
-                       System.out.println("Live Stock Price: ₹" + price)
+                       System.out.println("Live Stock Price: Rs. " + price)
                    );
     }
 }
