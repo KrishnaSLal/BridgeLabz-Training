@@ -31,5 +31,15 @@
 
 ---
 
+## 📅 Day 3 – Joins, Stored Procedures & Triggers
+*(Date: 04-08-2026)*
+
+- SQL Joins - Inner, Left, Right, Full Outer.
+- Stored Procedures - creation and usage.
+- Triggers - use cases for automated database actions
+- Implemented Joins, stored procedures and triggers on health clinic app.
 
 
+👉 [Day 3 - Joins, Stored Procedures & Triggers](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-2)
+
+---
