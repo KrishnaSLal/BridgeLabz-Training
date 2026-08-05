@@ -43,3 +43,15 @@
 👉 [Day 3 - Joins, Stored Procedures & Triggers](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-2)
 
 ---
+
+## 📅 Day 4 – JDBC & Health Clinic App
+*(Date: 05-08-2026)*
+
+- JDBC - connecting a Java application to MySQL
+- CRUD operations via JDBC
+- Implemented Health Clinic App: register patients, manage doctors & specialties, schedule appointments, track visit history & basic billing - persisted via JDBC (MySQL)
+
+
+👉 [Day 3 - Joins, Stored Procedures & Triggers](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-2)
+
+---
