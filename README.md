@@ -52,6 +52,6 @@
 - Implemented Health Clinic App: register patients, manage doctors & specialties, schedule appointments, track visit history & basic billing - persisted via JDBC (MySQL)
 
 
-👉 [Day 3 - Joins, Stored Procedures & Triggers](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-2)
+👉 [Day 4 - JDBC](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-4/JDBC-practice/jdbc-practice)
 
 ---
