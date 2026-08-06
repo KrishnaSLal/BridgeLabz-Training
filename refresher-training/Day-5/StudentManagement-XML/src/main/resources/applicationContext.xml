@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Enable @Autowired -->
+    <context:annotation-config/>
+
+    <!-- StudentService Bean -->
+    <bean id="studentService"
+          class="com.student.service.StudentService"/>
+
+    <!-- Address Bean -->
+    <!-- Field Injection: StudentService is injected using @Autowired -->
+    <bean id="address"
+          class="com.student.model.Address"/>
+
+    <!-- Course Bean -->
+    <!-- Setter Injection: Address is injected using setAddress() -->
+    <bean id="course"
+          class="com.student.model.Course">
+
+        <property name="courseName" value="Java Full Stack"/>
+
+        <property name="address" ref="address"/>
+
+    </bean>
+
+    <!-- Student Bean -->
+    <!-- Constructor Injection: Course is injected through constructor -->
+    <bean id="student"
+          class="com.student.model.Student">
+
+        <constructor-arg value="101"/>
+        <constructor-arg value="Krishna"/>
+        <constructor-arg ref="course"/>
+
+    </bean>
+
+</beans>
