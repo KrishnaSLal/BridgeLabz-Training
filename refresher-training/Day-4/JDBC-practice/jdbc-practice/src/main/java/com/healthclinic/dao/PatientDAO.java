@@ -1,57 +1,156 @@
 package com.healthclinic.dao;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 
 import com.healthclinic.db.DBConnection;
+import com.healthclinic.model.Patient;
 
 public class PatientDAO {
-	
-	public void addPatient(){
-		
-		String sql = "INSERT INTO patient (name, phone, dob, gender) VALUES (?, ?, ?, ?)";
-		
-//		try(Connection conn = DBConnection.getConnection();
-//				PreparedStatement ps = conn.prepareStatement(sql)){
-//			
-//			ps.setString(1, "Krishna");
-//			ps.setString(2, "9999999999");
-//			ps.setDate(3, java.sql.Date.valueOf("2003-07-25"));
-//			ps.setString(4, "Female");
-//			ps.executeUpdate();
-//			
-//			ps.setString(1, "Adithya");
-//			ps.setString(2, "9987456321");
-//			ps.setDate(3, java.sql.Date.valueOf("2002-03-03"));
-//			ps.setString(4, "Female");
-//			ps.executeUpdate();
-//			
-//			ps.setString(1, "Kiranjith");
-//			ps.setString(2, "7896541230");
-//			ps.setDate(3, java.sql.Date.valueOf("2002-05-14"));
-//			ps.setString(4, "Male");
-//			ps.executeUpdate();
-//			
-//			ps.setString(1, "Kashi");
-//			ps.setString(2, "7854693210");
-//			ps.setDate(3, java.sql.Date.valueOf("2000-08-05"));
-//			ps.setString(4, "Female");
-//			ps.executeUpdate();
-//		    }
-		
-		
-		String updateSql = "UPDATE patient SET phone = ? WHERE patient_id = ?";
-		try (Connection conn = DBConnection.getConnection();
-		     PreparedStatement ps = conn.prepareStatement(updateSql)) {
-		    ps.setString(1, "9000011111");
-		    ps.setInt(2, 1);
-		    ps.executeUpdate();
-		}
-		
-		catch(SQLException e) {
-			e.printStackTrace();
-		}
-	  }
+
+    // Add Patient
+    public void addPatient(Patient patient) {
+
+        String sql = "INSERT INTO patient(name, phone, dob, gender) VALUES(?,?,?,?)";
+
+        try (
+                Connection con = DBConnection.getConnection();
+                PreparedStatement ps = con.prepareStatement(sql);
+        ) {
+
+            ps.setString(1, patient.getName());
+            ps.setString(2, patient.getPhone());
+            ps.setDate(3, patient.getDob());
+            ps.setString(4, patient.getGender());
+
+            int rows = ps.executeUpdate();
+
+            if (rows > 0) {
+                System.out.println("Patient Added Successfully");
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // View All Patients
+    public void viewPatients() {
+
+        String sql = "SELECT * FROM patient";
+
+        try (
+                Connection con = DBConnection.getConnection();
+                PreparedStatement ps = con.prepareStatement(sql);
+                ResultSet rs = ps.executeQuery();
+        ) {
+
+            while (rs.next()) {
+
+                System.out.println("Patient ID : " + rs.getInt("patient_id"));
+                System.out.println("Name       : " + rs.getString("name"));
+                System.out.println("Phone      : " + rs.getString("phone"));
+                System.out.println("DOB        : " + rs.getDate("dob"));
+                System.out.println("Gender     : " + rs.getString("gender"));
+                System.out.println(" ");
+                
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // Search Patient
+    public void searchPatient(int patientId) {
+
+        String sql = "{CALL GetPatientById(?)}";
+
+        try (
+                Connection con = DBConnection.getConnection();
+                CallableStatement cs = con.prepareCall(sql);
+        ) {
+
+            cs.setInt(1, patientId);
+
+            ResultSet rs = cs.executeQuery();
+
+            if (rs.next()) {
+
+                System.out.println("Patient ID : " + rs.getInt("patient_id"));
+                System.out.println("Name       : " + rs.getString("name"));
+                System.out.println("Phone      : " + rs.getString("phone"));
+                System.out.println("DOB        : " + rs.getDate("dob"));
+                System.out.println("Gender     : " + rs.getString("gender"));
+
+            } else {
+
+                System.out.println("Patient Not Found");
+
+            }
+
+        } catch (SQLException e) {
+
+            e.printStackTrace();
+
+        }
+
+    }
+
+    // Update Patient
+    public void updatePatient(int patientId,String name,String phone,Date dob,String gender) {
+
+    	String sql = "UPDATE patient SET name=?, phone=?, dob=?, gender=? WHERE patient_id=?";
+
+    	try (
+    			Connection con = DBConnection.getConnection();
+    			PreparedStatement ps = con.prepareStatement(sql);
+    			) {
+
+    		ps.setString(1, name);
+    		ps.setString(2, phone);
+    		ps.setDate(3, dob);
+    		ps.setString(4, gender);
+    		ps.setInt(5, patientId);
+
+    		int rows = ps.executeUpdate();
+
+    		if(rows > 0)
+    			System.out.println("Patient Updated Successfully");
+    		else
+    			System.out.println("Patient Not Found");
+
+    	} catch(SQLException e) {
+    		e.printStackTrace();
+    	}
+    }
+
+    // Delete Patient
+    public void deletePatient(int patientId) {
+
+        String sql = "DELETE FROM patient WHERE patient_id=?";
+
+        try (
+                Connection con = DBConnection.getConnection();
+                PreparedStatement ps = con.prepareStatement(sql);
+        ) {
+
+            ps.setInt(1, patientId);
+
+            int rows = ps.executeUpdate();
+
+            if (rows > 0) {
+
+                System.out.println("Patient Deleted Successfully");
+
+            } else {
+
+                System.out.println("Patient Not Found");
+
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
 }
