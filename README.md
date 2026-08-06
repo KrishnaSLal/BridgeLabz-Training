@@ -55,3 +55,17 @@
 👉 [Day 4 - JDBC](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-4/JDBC-practice/jdbc-practice)
 
 ---
+
+
+## 📅 Day 5 – Tomcat, Servlets & Spring Introduction
+*(Date: 06-08-2026)*
+
+- Tomcat as a web/application server.
+- Explored Servlet lifecycle.
+- Introduction to Spring Framework.
+- Spring Core Concepts - IoC (Inversion of Control), Dependency Injection basics.
+- Implemented dependency servlet and injection.
+
+👉 [Day 5 - Dependency Injection & Servlet](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-5)
+
+---
