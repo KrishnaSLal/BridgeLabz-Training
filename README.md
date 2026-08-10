@@ -69,3 +69,15 @@
 👉 [Day 5 - Dependency Injection & Servlet](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-5)
 
 ---
+
+
+## 📅 Day 6 – Spring MVC
+*(Date: 07-08-2026)*
+
+-  Spring MVC architecture - DispatcherServlet, Controllers, Views 
+- Request mapping and handling in Spring MVC 
+- Practiced 'Student Login-Registration' using MVC
+- Implemented'My Greetings App' using Spring MVC
+👉 [Day 5 - Spring MVC](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-6)
+
+---
