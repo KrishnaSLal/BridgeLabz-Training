@@ -13,6 +13,11 @@ target/
 .springBeans
 .sts4-cache
 
+.gitattribute
+mvnw
+mvnw
+.mvn
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
