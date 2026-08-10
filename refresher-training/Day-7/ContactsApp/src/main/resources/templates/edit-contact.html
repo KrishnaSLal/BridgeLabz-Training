@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Contact</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            width: 500px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .back {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Edit Contact</h1>
+
+    <form th:action="@{/contacts/update/{id}(id=${contactId})}"
+          th:object="${contact}"
+          method="post">
+
+        <label>Name</label>
+
+        <input type="text"
+               th:field="*{name}"
+               required>
+
+
+        <label>Phone</label>
+
+        <input type="text"
+               th:field="*{phone}"
+               required>
+
+
+        <label>Alternate Phone</label>
+
+        <input type="text"
+               th:field="*{alternatePhone}">
+
+
+        <label>Email</label>
+
+        <input type="email"
+               th:field="*{email}"
+               required>
+
+
+        <button type="submit">
+            Update Contact
+        </button>
+
+        <a class="back"
+           th:href="@{/contacts}">
+            Cancel
+        </a>
+
+    </form>
+
+</div>
+
+</body>
+</html>
