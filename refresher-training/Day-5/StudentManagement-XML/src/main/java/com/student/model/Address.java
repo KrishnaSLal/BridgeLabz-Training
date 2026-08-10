@@ -14,6 +14,14 @@ public class Address {
 
     public Address() {
     }
+    
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
 
     public void displayAddress() {
 

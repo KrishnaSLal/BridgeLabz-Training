@@ -10,7 +10,7 @@
            https://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- Enable @Autowired -->
-    <context:annotation-config/>
+     <context:annotation-config/> 
 
     <!-- StudentService Bean -->
     <bean id="studentService"
@@ -18,14 +18,17 @@
 
     <!-- Address Bean -->
     <!-- Field Injection: StudentService is injected using @Autowired -->
-    <bean id="address"
-          class="com.student.model.Address"/>
-
+    <bean id="address" class="com.student.model.Address">
+    
+       <property name="city" value="Allapuzha"/>
+       <property name="state" value="Kerala"/>
+    </bean>
+ 
     <!-- Course Bean -->
     <!-- Setter Injection: Address is injected using setAddress() -->
     <bean id="course"
           class="com.student.model.Course">
-
+ 
         <property name="courseName" value="Java Full Stack"/>
 
         <property name="address" ref="address"/>
@@ -33,7 +36,7 @@
     </bean>
 
     <!-- Student Bean -->
-    <!-- Constructor Injection: Course is injected through constructor -->
+    <!-- Constructor Injection: Course is injected via constructor -->
     <bean id="student"
           class="com.student.model.Student">
 
