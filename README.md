@@ -1084,3 +1084,15 @@
 👉 [Day 6 - Spring MVC](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-6)
 
 ---
+
+
+## 📅 Day 7 – Spring REST API & Request Handling
+*(Date: 10-08-2026)*
+
+- Spring REST API programming - building RESTful endpoints. 
+- Request handling patterns; H2 in-memory database basics.
+- Distributed Architectures - overview and motivation.
+- Implemented ContactApp using REST API.
+👉 [Day 7 - REST API](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-7/ContactsApp)
+
+---
