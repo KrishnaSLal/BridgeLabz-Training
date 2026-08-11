@@ -1,14 +1,15 @@
 package com.contacts.service;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.contacts.dto.ContactRequestDTO;
 import com.contacts.dto.ContactResponseDTO;
 import com.contacts.entity.Contact;
+import com.contacts.exception.ContactNotFoundException;
 import com.contacts.repository.ContactRepository;
-
-import org.springframework.stereotype.Service;
-
-import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class ContactServiceImpl implements ContactService {
@@ -24,10 +25,11 @@ public class ContactServiceImpl implements ContactService {
 
         Contact contact = new Contact();
 
-        contact.setName(request.getName());
+        contact.setFirstName(request.getFirstName());
+        contact.setLastName(request.getLastName());
+        contact.setEmail(request.getEmail());
         contact.setPhone(request.getPhone());
         contact.setAlternatePhone(request.getAlternatePhone());
-        contact.setEmail(request.getEmail());
 
         Contact savedContact = contactRepository.save(contact);
 
@@ -40,34 +42,29 @@ public class ContactServiceImpl implements ContactService {
         return contactRepository.findAll()
                 .stream()
                 .map(this::convertToResponseDTO)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
     public ContactResponseDTO getContactById(Long id) {
 
         Contact contact = contactRepository.findById(id)
-                .orElseThrow(() ->
-                        new RuntimeException(
-                                "Contact not found with id: " + id));
+        		.orElseThrow(() -> new ContactNotFoundException("Contact not found with id: " + id));
 
         return convertToResponseDTO(contact);
     }
 
     @Override
-    public ContactResponseDTO updateContact(
-            Long id,
-            ContactRequestDTO request) {
+    public ContactResponseDTO updateContact(Long id, ContactRequestDTO request) {
 
         Contact contact = contactRepository.findById(id)
-                .orElseThrow(() ->
-                        new RuntimeException(
-                                "Contact not found with id: " + id));
+        		.orElseThrow(() -> new ContactNotFoundException("Contact not found with id: " + id));
 
-        contact.setName(request.getName());
+        contact.setFirstName(request.getFirstName());
+        contact.setLastName(request.getLastName());
+        contact.setEmail(request.getEmail());
         contact.setPhone(request.getPhone());
         contact.setAlternatePhone(request.getAlternatePhone());
-        contact.setEmail(request.getEmail());
 
         Contact updatedContact = contactRepository.save(contact);
 
@@ -77,22 +74,21 @@ public class ContactServiceImpl implements ContactService {
     @Override
     public void deleteContact(Long id) {
 
-        if (!contactRepository.existsById(id)) {
-            throw new RuntimeException(
-                    "Contact not found with id: " + id);
-        }
+        Contact contact = contactRepository.findById(id)
+        	    .orElseThrow(() -> new ContactNotFoundException("Contact not found with id: " + id));
 
-        contactRepository.deleteById(id);
+        contactRepository.delete(contact);
     }
 
     private ContactResponseDTO convertToResponseDTO(Contact contact) {
 
         return new ContactResponseDTO(
                 contact.getId(),
-                contact.getName(),
+                contact.getFirstName(),
+                contact.getLastName(),
+                contact.getEmail(),
                 contact.getPhone(),
-                contact.getAlternatePhone(),
-                contact.getEmail()
+                contact.getAlternatePhone()
         );
     }
 }
