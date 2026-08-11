@@ -74,10 +74,12 @@
 ## 📅 Day 6 – Spring MVC
 *(Date: 07-08-2026)*
 
--  Spring MVC architecture - DispatcherServlet, Controllers, Views 
-- Request mapping and handling in Spring MVC 
+- Explored Spring MVC architecture - DispatcherServlet, Controllers, Views 
+- Implemented Request mapping and handling in Spring MVC 
 - Practiced 'Student Login-Registration' using MVC
 - Implemented'My Greetings App' using Spring MVC
+
+
 👉 [Day 6 - Spring MVC](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-6)
 
 ---
@@ -85,10 +87,28 @@
 ## 📅 Day 7 – Spring REST API & Request Handling
 *(Date: 10-08-2026)*
 
-- Spring REST API programming - building RESTful endpoints. 
-- Request handling patterns; H2 in-memory database basics.
+- Explored and implemented Spring REST API programming - building RESTful endpoints. 
+- Learnt Request handling patterns.
+- H2 in-memory database basics.
 - Distributed Architectures - overview and motivation.
 - Implemented ContactApp using REST API.
+
+
 👉 [Day 7 - REST API](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-7/ContactsApp)
+
+---
+
+
+## 📅 Day 8 – API Testing Tools & SDLC Exposure
+*(Date: 11-08-2026)*
+
+
+- Explored REST Assured and JSON Server for API mocking/testing.
+- Explored Software Development Life Cycle (SDLC).
+- Exposure and where backend dev fits in
+- Implemented Test Contacts App endpoints using REST Assured / JSON Server.
+
+
+👉 [Day 8 - API Testing Tools & SDLC Exposure ](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-8/ContactsApp)
 
 ---
