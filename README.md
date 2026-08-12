@@ -1115,3 +1115,22 @@
 👉 [Day 8 - API Testing Tools & SDLC Exposure ](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-8/ContactsApp)
 
 ---
+
+#📚 Backend with Spring Boot
+---
+
+## 📅 Day 9 – Spring Boot Fundamentals
+*(Date: 12-08-2026)*
+
+
+- Explored Spring Boot - auto-configuration, starters, embedded server. 
+- Studied Spring Controller and REST API basics in Spring Boot.
+- Understood Bootstrap a new Spring Boot project.
+- Implemented the Contacts App backend on Spring Boot.
+- Implemented Search & Partial Updations in MyContacts app.
+
+
+👉 [Day 9 - Spring Boot Fundamentals](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-9/ContactsApp)
+
+---
+
