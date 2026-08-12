@@ -18,7 +18,7 @@ public class ContactRequestDTO {
     private String firstName;
 
     @NotBlank(message = "Last name is required")
-    @Size(min = 2, max = 50)
+    @Size(min = 1, max = 50)
     private String lastName;
 
     @NotBlank(message = "Email is required")
