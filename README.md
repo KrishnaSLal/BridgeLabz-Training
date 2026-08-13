@@ -57,6 +57,7 @@
 ---
 
 # 📚 Backend Basics
+---
 
 ## 📅 Day 5 – Tomcat, Servlets & Spring Introduction
 *(Date: 06-08-2026)*
@@ -116,6 +117,7 @@
 
 
 #📚 Backend with Spring Boot
+---
 
 ## 📅 Day 9 – Spring Boot Fundamentals
 *(Date: 12-08-2026)*
@@ -129,5 +131,19 @@
 
 
 👉 [Day 9 - Spring Boot Fundamentals](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-9/ContactsApp)
+
+---
+
+
+## 📅 Day 10 – Dependency Injection & H2 Database
+*(Date: 13-08-2026)*
+
+
+- Performed Dependency Injection deep-dive in Spring Boot. 
+- Understood H2 Database integration and configuration.
+- Wired H2 Database into the Employee Payroll App backend.
+- Implemented Employee Payroll Application, performed CRUD   operations. 
+
+👉 [Day 10 - Dependency Injection & H2 Database](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-10/Employee-Payroll)
 
 ---
