@@ -1151,3 +1151,17 @@
 
 
 ---
+
+
+## 📅 Day 11 – Spring Services, Spring JPA & Spring JDBC
+*(Date: 14-08-2026)*
+
+
+- Explored Spring REST API - service-layer design.
+- Implemented Spring JPA - repositories and entity mapping.
+- Implemented Spring JDBC - template-based data access.
+- Implemented Employee Payroll App backend using Spring JPA / Spring JDBC.
+
+👉 [Day 11 - Dependency Injection & H2 Database](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-11/Employee-Payroll)
+
+---
