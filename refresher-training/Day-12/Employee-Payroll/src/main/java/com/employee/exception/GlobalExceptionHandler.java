@@ -2,25 +2,40 @@ package com.employee.exception;
 
 import java.time.LocalDateTime;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(
-            EmployeeNotFoundException.class)
+    private static final Logger logger =
+            LoggerFactory.getLogger(GlobalExceptionHandler.class);
+
+    // =========================
+    // EMPLOYEE NOT FOUND
+    // =========================
+
+    @ExceptionHandler(EmployeeNotFoundException.class)
     public ResponseEntity<ErrorResponse>
-            handleEmployeeNotFound(
-                EmployeeNotFoundException exception) {
+    handleEmployeeNotFound(
+            EmployeeNotFoundException exception) {
+
+        logger.warn(
+                "Employee not found: {}",
+                exception.getMessage()
+        );
 
         ErrorResponse error =
                 new ErrorResponse(
-                    LocalDateTime.now(),
-                    HttpStatus.NOT_FOUND.value(),
-                    exception.getMessage()
+                        LocalDateTime.now(),
+                        HttpStatus.NOT_FOUND.value(),
+                        exception.getMessage()
                 );
 
         return ResponseEntity
@@ -28,17 +43,25 @@ public class GlobalExceptionHandler {
                 .body(error);
     }
 
-    @ExceptionHandler(
-            DepartmentNotFoundException.class)
+    // =========================
+    // DEPARTMENT NOT FOUND
+    // =========================
+
+    @ExceptionHandler(DepartmentNotFoundException.class)
     public ResponseEntity<ErrorResponse>
-            handleDepartmentNotFound(
-                DepartmentNotFoundException exception) {
+    handleDepartmentNotFound(
+            DepartmentNotFoundException exception) {
+
+        logger.warn(
+                "Department not found: {}",
+                exception.getMessage()
+        );
 
         ErrorResponse error =
                 new ErrorResponse(
-                    LocalDateTime.now(),
-                    HttpStatus.NOT_FOUND.value(),
-                    exception.getMessage()
+                        LocalDateTime.now(),
+                        HttpStatus.NOT_FOUND.value(),
+                        exception.getMessage()
                 );
 
         return ResponseEntity

@@ -1,5 +1,8 @@
 package com.employee.service;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.data.domain.Page;
@@ -19,13 +22,13 @@ import com.employee.repository.DepartmentRepository;
 import com.employee.repository.EmployeeRepository;
 
 @Service
-public class EmployeeServiceImpl
-        implements EmployeeService {
+public class EmployeeServiceImpl implements EmployeeService {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(EmployeeServiceImpl.class);
 
     private final EmployeeRepository employeeRepository;
-
     private final EmployeeMapper employeeMapper;
-
     private final DepartmentRepository departmentRepository;
 
     public EmployeeServiceImpl(
@@ -46,13 +49,25 @@ public class EmployeeServiceImpl
     public EmployeeResponseDTO createEmployee(
             EmployeeRequestDTO request) {
 
+        logger.info(
+                "Creating employee with name: {}",
+                request.getName()
+        );
+
         departmentRepository
                 .findById(request.getDepartmentId())
-                .orElseThrow(() ->
-                    new DepartmentNotFoundException(
-                        "Department not found with id: "
-                        + request.getDepartmentId()
-                    ));
+                .orElseThrow(() -> {
+
+                    logger.warn(
+                            "Department not found with id: {} while creating employee",
+                            request.getDepartmentId()
+                    );
+
+                    return new DepartmentNotFoundException(
+                            "Department not found with id: "
+                                    + request.getDepartmentId()
+                    );
+                });
 
         Employee employee =
                 employeeMapper.toEntity(request);
@@ -60,8 +75,12 @@ public class EmployeeServiceImpl
         Employee savedEmployee =
                 employeeRepository.save(employee);
 
-        return employeeMapper
-                .toResponseDTO(savedEmployee);
+        logger.info(
+                "Employee created successfully with id: {}",
+                savedEmployee.getId()
+        );
+
+        return employeeMapper.toResponseDTO(savedEmployee);
     }
 
     // =========================
@@ -72,9 +91,23 @@ public class EmployeeServiceImpl
     public Page<EmployeeResponseDTO> getAllEmployees(
             Pageable pageable) {
 
-        return employeeRepository
-                .findAll(pageable)
-                .map(employeeMapper::toResponseDTO);
+        logger.info(
+                "Fetching all employees. Page: {}, Size: {}",
+                pageable.getPageNumber(),
+                pageable.getPageSize()
+        );
+
+        Page<EmployeeResponseDTO> employees =
+                employeeRepository
+                        .findAll(pageable)
+                        .map(employeeMapper::toResponseDTO);
+
+        logger.info(
+                "Successfully fetched {} employees",
+                employees.getNumberOfElements()
+        );
+
+        return employees;
     }
 
     // =========================
@@ -88,14 +121,19 @@ public class EmployeeServiceImpl
             String sortBy,
             String direction) {
 
+        logger.info(
+                "Fetching employees with pagination. Page: {}, Size: {}, SortBy: {}, Direction: {}",
+                page,
+                size,
+                sortBy,
+                direction
+        );
+
         Sort sort;
 
         if (direction.equalsIgnoreCase("desc")) {
-
             sort = Sort.by(sortBy).descending();
-
         } else {
-
             sort = Sort.by(sortBy).ascending();
         }
 
@@ -106,9 +144,17 @@ public class EmployeeServiceImpl
                         sort
                 );
 
-        return employeeRepository
-                .findAll(pageable)
-                .map(employeeMapper::toResponseDTO);
+        Page<EmployeeResponseDTO> employees =
+                employeeRepository
+                        .findAll(pageable)
+                        .map(employeeMapper::toResponseDTO);
+
+        logger.info(
+                "Pagination completed successfully. Total employees: {}",
+                employees.getTotalElements()
+        );
+
+        return employees;
     }
 
     // =========================
@@ -119,16 +165,32 @@ public class EmployeeServiceImpl
     public EmployeeResponseDTO getEmployeeById(
             Long id) {
 
+        logger.info(
+                "Fetching employee with id: {}",
+                id
+        );
+
         Employee employee =
                 employeeRepository
-                .findById(id)
-                .orElseThrow(() ->
-                    new EmployeeNotFoundException(
-                        "Employee not found with id: " + id
-                    ));
+                        .findById(id)
+                        .orElseThrow(() -> {
 
-        return employeeMapper
-                .toResponseDTO(employee);
+                            logger.warn(
+                                    "Employee not found with id: {}",
+                                    id
+                            );
+
+                            return new EmployeeNotFoundException(
+                                    "Employee not found with id: " + id
+                            );
+                        });
+
+        logger.info(
+                "Employee found successfully with id: {}",
+                id
+        );
+
+        return employeeMapper.toResponseDTO(employee);
     }
 
     // =========================
@@ -140,21 +202,41 @@ public class EmployeeServiceImpl
             Long id,
             EmployeeRequestDTO request) {
 
+        logger.info(
+                "Updating employee with id: {}",
+                id
+        );
+
         Employee employee =
                 employeeRepository
-                .findById(id)
-                .orElseThrow(() ->
-                    new EmployeeNotFoundException(
-                        "Employee not found with id: " + id
-                    ));
+                        .findById(id)
+                        .orElseThrow(() -> {
+
+                            logger.warn(
+                                    "Employee not found with id: {} while updating",
+                                    id
+                            );
+
+                            return new EmployeeNotFoundException(
+                                    "Employee not found with id: " + id
+                            );
+                        });
 
         departmentRepository
                 .findById(request.getDepartmentId())
-                .orElseThrow(() ->
-                    new DepartmentNotFoundException(
-                        "Department not found with id: "
-                        + request.getDepartmentId()
-                    ));
+                .orElseThrow(() -> {
+
+                    logger.warn(
+                            "Department not found with id: {} while updating employee {}",
+                            request.getDepartmentId(),
+                            id
+                    );
+
+                    return new DepartmentNotFoundException(
+                            "Department not found with id: "
+                                    + request.getDepartmentId()
+                    );
+                });
 
         employee.setName(request.getName());
         employee.setEmail(request.getEmail());
@@ -167,8 +249,12 @@ public class EmployeeServiceImpl
         Employee updatedEmployee =
                 employeeRepository.save(employee);
 
-        return employeeMapper
-                .toResponseDTO(updatedEmployee);
+        logger.info(
+                "Employee updated successfully with id: {}",
+                id
+        );
+
+        return employeeMapper.toResponseDTO(updatedEmployee);
     }
 
     // =========================
@@ -178,15 +264,32 @@ public class EmployeeServiceImpl
     @Override
     public void deleteEmployee(Long id) {
 
+        logger.info(
+                "Deleting employee with id: {}",
+                id
+        );
+
         Employee employee =
                 employeeRepository
-                .findById(id)
-                .orElseThrow(() ->
-                    new EmployeeNotFoundException(
-                        "Employee not found with id: " + id
-                    ));
+                        .findById(id)
+                        .orElseThrow(() -> {
+
+                            logger.warn(
+                                    "Employee not found with id: {} while deleting",
+                                    id
+                            );
+
+                            return new EmployeeNotFoundException(
+                                    "Employee not found with id: " + id
+                            );
+                        });
 
         employeeRepository.delete(employee);
+
+        logger.info(
+                "Employee deleted successfully with id: {}",
+                id
+        );
     }
 
     // =========================
@@ -203,6 +306,14 @@ public class EmployeeServiceImpl
             String sortBy,
             String direction) {
 
+        logger.info(
+                "Searching employees. Page: {}, Size: {}, SortBy: {}, Direction: {}",
+                page,
+                size,
+                sortBy,
+                direction
+        );
+
         // Create probe object
         Employee employee = new Employee();
 
@@ -213,11 +324,11 @@ public class EmployeeServiceImpl
         // Create matcher
         ExampleMatcher matcher =
                 ExampleMatcher
-                .matching()
-                .withIgnoreCase()
-                .withStringMatcher(
-                    ExampleMatcher.StringMatcher.CONTAINING
-                );
+                        .matching()
+                        .withIgnoreCase()
+                        .withStringMatcher(
+                                ExampleMatcher.StringMatcher.CONTAINING
+                        );
 
         // Create example
         Example<Employee> example =
@@ -227,11 +338,8 @@ public class EmployeeServiceImpl
         Sort sort;
 
         if (direction.equalsIgnoreCase("desc")) {
-
             sort = Sort.by(sortBy).descending();
-
         } else {
-
             sort = Sort.by(sortBy).ascending();
         }
 
@@ -244,8 +352,16 @@ public class EmployeeServiceImpl
                 );
 
         // Execute QBE
-        return employeeRepository
-                .findAll(example, pageable)
-                .map(employeeMapper::toResponseDTO);
+        Page<EmployeeResponseDTO> results =
+                employeeRepository
+                        .findAll(example, pageable)
+                        .map(employeeMapper::toResponseDTO);
+
+        logger.info(
+                "Employee search completed. Found {} employees",
+                results.getTotalElements()
+        );
+
+        return results;
     }
 }
