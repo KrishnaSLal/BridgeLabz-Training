@@ -1165,3 +1165,19 @@
 👉 [Day 11 - Dependency Injection & H2 Database](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-11/Employee-Payroll)
 
 ---
+
+
+## 📅 Day 12 – Spring Scopes, Logging, Maven & Postman
+*(Date: 17-08-2026)*
+
+
+- Understood Spring Bean Scopes (singleton, prototype, request, session).
+- Implemented Logging in Spring Boot applications.
+- Worked on Maven - build & dependency management. 
+- Explored Postman - API testing workflow.
+- Completed Employee Payroll App & Address Book App backends.
+- Tested all endpoints using Postman collections.
+
+👉 [Day 12 - Spring Scopes, Logging, Maven & Postman](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-12/Employee-Payroll)
+
+---
