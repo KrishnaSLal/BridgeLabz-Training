@@ -24,7 +24,7 @@
         <java.version>17</java.version>
     </properties>
 
-    <dependencies>
+<dependencies>
 
     <!-- Spring Data JPA -->
     <dependency>
@@ -32,7 +32,7 @@
         <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
 
-    <!-- Spring Web -->
+    <!-- Spring Web MVC -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-webmvc</artifactId>
@@ -71,19 +71,20 @@
         <scope>runtime</scope>
         <optional>true</optional>
     </dependency>
-    
+
+    <!-- Swagger / OpenAPI -->
     <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-test</artifactId>
-    <scope>test</scope>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+        <version>3.0.3</version>
     </dependency>
 
+    <!-- Test -->
     <dependency>
-    <groupId>org.springdoc</groupId>
-    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-    <version>3.0.3</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
     </dependency>
-
 
 </dependencies>
     <build>
