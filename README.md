@@ -176,3 +176,18 @@
 👉 [Day 12 - Spring Scopes, Logging, Maven & Postman](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-12/Employee-Payroll)
 
 ---
+
+# 📚 Advanced Backend Development
+
+## 📅 Day 13 – Spring Security & JWT Authentication
+*(Date: 18-08-2026)*
+
+
+- Spring Boot recap; 
+- Explored Spring Security fundamentals.
+- Understood JWT (JSON Web Token) - token-based authentication.
+- Implemented Fundoo Notes App - User Management Module: user login, registration, password recovery.
+
+👉 [Day 13 - Spring Security & JWT Authentication](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-13/FundooNotesApp)
+
+---
