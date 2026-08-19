@@ -191,3 +191,16 @@
 👉 [Day 13 - Spring Security & JWT Authentication](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-13/FundooNotesApp)
 
 ---
+
+## 📅 Day 14 – Authorization & JPA for Notes Management
+*(Date: 18-08-2026)*
+
+
+ - Understood Authentication vs Authorization - secure token-based verification.
+ - Explored JPA deep-dive for entity relationships (Notes, Users).
+ - Implemented Fundoo Notes App - Authentication & Authorization Module.
+ - Implemented Fundoo Notes App - Notes Management Module: create and delete notes.
+
+👉 [Day 14 - Authorization & JPA for Notes Management](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-14/FundooNotesApp)
+
+---
