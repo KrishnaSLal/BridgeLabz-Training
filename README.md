@@ -193,7 +193,7 @@
 ---
 
 ## 📅 Day 14 – Authorization & JPA for Notes Management
-*(Date: 18-08-2026)*
+*(Date: 19-08-2026)*
 
 
  - Understood Authentication vs Authorization - secure token-based verification.
@@ -202,5 +202,25 @@
  - Implemented Fundoo Notes App - Notes Management Module: create and delete notes.
 
 👉 [Day 14 - Authorization & JPA for Notes Management](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-14/FundooNotesApp)
+
+---
+
+
+## 📅 Day 15 – Organisation Modules: Pin/Archive/Trash, Search & Tags
+*(Date: 20-08-2026)*
+
+
+ - Explored Designing organisation-oriented REST endpoints (state-based filtering) 
+ - Studied Search & filter query design.
+
+- Implemented : 
+                  
+  - Fundoo Notes App - Pin / Archive / Trash Module
+
+  - Fundoo Notes App - Search & Filter Module
+
+  - Fundoo Notes App - Tags / Labels Management Module
+
+👉 [Day 15 - Organisation Modules: Pin/Archive/Trash, Search & Tags](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-15/FundooNotesApp)
 
 ---
