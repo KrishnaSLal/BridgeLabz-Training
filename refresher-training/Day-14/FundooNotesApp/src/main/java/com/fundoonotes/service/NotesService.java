@@ -1,6 +1,7 @@
 package com.fundoonotes.service;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 import org.springframework.stereotype.Service;
 
@@ -25,6 +26,7 @@ public class NotesService {
         this.userRepository = userRepository;
     }
 
+    // CREATE
     public NotesResponse createNote(
             NotesRequest request,
             String email) {
@@ -47,12 +49,88 @@ public class NotesService {
         note.setCreatedAt(now);
         note.setUpdatedAt(now);
 
-        Notes savedNote =
-                notesRepository.save(note);
+        Notes savedNote = notesRepository.save(note);
 
         return convertToResponse(savedNote);
     }
 
+
+    // READ ALL
+    public List<NotesResponse> getAllNotes(
+            String email) {
+
+        User user = userRepository
+                .findByEmail(email)
+                .orElseThrow(() ->
+                        new IllegalArgumentException(
+                                "User not found"
+                        ));
+
+        List<Notes> notes =
+                notesRepository.findAllByUser(user);
+
+        return notes.stream()
+                .map(this::convertToResponse)
+                .toList();
+    }
+
+
+    // READ ONE
+    public NotesResponse getNoteById(
+            int noteId,
+            String email) {
+
+        User user = userRepository
+                .findByEmail(email)
+                .orElseThrow(() ->
+                        new IllegalArgumentException(
+                                "User not found"
+                        ));
+
+        Notes note = notesRepository
+                .findByNoteIdAndUser(noteId, user)
+                .orElseThrow(() ->
+                        new IllegalArgumentException(
+                                "Note not found or you are not authorized to access this note"
+                        ));
+
+        return convertToResponse(note);
+    }
+
+
+    // UPDATE
+    public NotesResponse updateNote(
+            int noteId,
+            NotesRequest request,
+            String email) {
+
+        User user = userRepository
+                .findByEmail(email)
+                .orElseThrow(() ->
+                        new IllegalArgumentException(
+                                "User not found"
+                        ));
+
+        Notes note = notesRepository
+                .findByNoteIdAndUser(noteId, user)
+                .orElseThrow(() ->
+                        new IllegalArgumentException(
+                                "Note not found or you are not authorized to update this note"
+                        ));
+
+        note.setTitle(request.getTitle());
+        note.setDescription(request.getDescription());
+
+        note.setUpdatedAt(LocalDateTime.now());
+
+        Notes updatedNote =
+                notesRepository.save(note);
+
+        return convertToResponse(updatedNote);
+    }
+
+
+    // DELETE
     public void deleteNote(
             int noteId,
             String email) {
@@ -74,6 +152,8 @@ public class NotesService {
         notesRepository.delete(note);
     }
 
+
+    // ENTITY -> RESPONSE DTO
     private NotesResponse convertToResponse(
             Notes note) {
 
