@@ -224,3 +224,20 @@
 👉 [Day 15 - Organisation Modules: Pin/Archive/Trash, Search & Tags](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-15/FundooNotesApp)
 
 ---
+
+
+## 📅 Day 16 – JMS (Asynchronous Messaging) & Redis Caching
+*(Date: 20-08-2026)*
+
+
+- Studied JMS (Java Message Service) - asynchronous, non-blocking background processing.
+- Explored Redis - token caching to enhance authorization performance.
+
+- Implemented: 
+  - Fundoo Notes App - Reminder & Notification Module (via JMS). 
+  - Fundoo Notes App - Token Caching via Redis.
+
+👉 [Day 16 - JMS (Asynchronous Messaging) & Redis Caching](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-16/FundooNotesApp)
+
+---
+
