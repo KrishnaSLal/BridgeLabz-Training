@@ -1234,7 +1234,7 @@
 
 
 ## 📅 Day 16 – JMS (Asynchronous Messaging) & Redis Caching
-*(Date: 20-08-2026)*
+*(Date: 21-08-2026)*
 
 
 - Studied JMS (Java Message Service) - asynchronous, non-blocking background processing.
@@ -1245,5 +1245,21 @@
   - Fundoo Notes App - Token Caching via Redis.
 
 👉 [Day 16 - JMS (Asynchronous Messaging) & Redis Caching](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-16/FundooNotesApp)
+
+---
+
+
+## 📅 Day 17 – RabbitMQ & Spring Batch 
+*(Date: 24-08-2026)*
+
+
+- Explored RabbitMQ - message queuing fundamentals
+- Explored RabbitMQ for smooth background/async operations
+
+- Implemented: 
+  - Spring Batch - batch processing, Excel import/export
+  - Fundoo Notes App - File Attachment Module (import)
+
+👉 [Day 17 - RabbitMQ & Spring Batch](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-17/FundooNotesApp)
 
 ---
