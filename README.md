@@ -1263,3 +1263,19 @@
 👉 [Day 17 - RabbitMQ & Spring Batch](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-17/FundooNotesApp)
 
 ---
+
+
+## 📅 Day 18 – REST API Patterns, Global Exception Handling, AOP 
+*(Date: 25-08-2026)*
+
+
+- Applied Spring REST API design patterns; Spring Scopes revisited
+- Explored Mapping methods (DTO <-> Entity)
+- Implemented Spring Boot Global Exception Handling
+- Explored and implemented logging best practices; AOP (Aspect-Oriented Programming); 
+- Introduction to Spring Cloud
+- Consolidated and harden the full Fundoo Notes App backend (error handling, logging, cross-cutting concerns)
+
+👉 [Day 18 - REST API Patterns, Global Exception Handling, AOP ](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-18/FundooNotesApp)
+
+---
