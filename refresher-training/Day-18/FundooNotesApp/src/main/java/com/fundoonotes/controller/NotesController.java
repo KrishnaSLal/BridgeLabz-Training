@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import java.io.IOException;
+
+import org.springframework.core.io.Resource;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+
 
 import com.fundoonotes.dto.NotesRequest;
 import com.fundoonotes.dto.NotesResponse;
@@ -22,6 +28,7 @@ import com.fundoonotes.messaging.ExportEventPublisher;
 import com.fundoonotes.messaging.ExportRequestEvent;
 import com.fundoonotes.entity.User;
 import com.fundoonotes.repository.UserRepository;
+import com.fundoonotes.service.NoteExportService;
 
 import jakarta.validation.Valid;
 
@@ -30,12 +37,19 @@ import jakarta.validation.Valid;
 public class NotesController {
 
     private final NotesService notesService;
-
+    private final UserRepository userRepository;
+    private final NoteExportService noteExportService;
+    
     public NotesController(
-            NotesService notesService) {
+            NotesService notesService,
+            UserRepository userRepository,
+            NoteExportService noteExportService) {
 
         this.notesService = notesService;
+        this.userRepository = userRepository;
+        this.noteExportService = noteExportService;
     }
+
 
     // =========================================================
     // CREATE
@@ -308,5 +322,32 @@ public class NotesController {
                      "Export request accepted. "
                      + "Your notes are being exported in the background."
              );
+ }
+ 
+ @GetMapping("/exported")
+ public ResponseEntity<Resource> getExportedFile(
+         Authentication authentication) throws IOException {
+
+     String email = authentication.getName();
+
+     User user = userRepository.findByEmail(email)
+             .orElseThrow(() ->
+                     new RuntimeException("User not found"));
+
+     Resource resource =
+             noteExportService.getExportedFile(user.getUserId());
+
+     if (resource == null) {
+         return ResponseEntity.notFound().build();
+     }
+
+     return ResponseEntity.ok()
+             .contentType(MediaType.parseMediaType("text/csv"))
+             .header(
+                     HttpHeaders.CONTENT_DISPOSITION,
+                     "attachment; filename=\"" +
+                     resource.getFilename() + "\""
+             )
+             .body(resource);
  }
 }

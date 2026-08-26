@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.UrlResource;
 
 import com.fundoonotes.entity.Notes;
 import com.fundoonotes.entity.User;
@@ -105,5 +107,19 @@ public class NoteExportService {
         return "\""
                 + value.replace("\"", "\"\"")
                 + "\"";
+    }
+
+    public Resource getExportedFile(int userId) throws IOException {
+
+        String fileName =
+                "exports/notes-user-" + userId + ".csv";
+
+        File file = new File(fileName);
+
+        if (!file.exists() || !file.isFile()) {
+            return null;
+        }
+
+        return new UrlResource(file.toURI());
     }
 }
