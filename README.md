@@ -1295,3 +1295,17 @@
 ---
 
 
+## 📅 Day 20 – Microservices Completion
+*(Date: 27-08-2026)*
+
+
+- Consolidated microservices architecture concepts.
+- Completed Fundoo Notes microservices: User Management, 
+Authentication & Authorization, Notes Management, Search & 
+Filter, Tags / Labels Management, Reminder & Notification.
+- Implemened circuit-breaker.
+- Final demo of the microservices-based Fundoo Notes application.
+
+👉 [Day 20 -  Microservices Completion](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-20/FundooNotesMicroservices)
+
+---
