@@ -261,13 +261,26 @@
 *(Date: 25-08-2026)*
 
 
-- Applied Spring REST API design patterns; Spring Scopes revisited
-- Explored Mapping methods (DTO <-> Entity)
-- Implemented Spring Boot Global Exception Handling
-- Explored and implemented logging best practices; AOP (Aspect-Oriented Programming); 
-- Introduction to Spring Cloud
-- Consolidated and harden the full Fundoo Notes App backend (error handling, logging, cross-cutting concerns)
+- Applied Spring REST API design patterns; Spring Scopes revisited.
+- Explored Mapping methods (DTO <-> Entity).
+- Implemented Spring Boot Global Exception Handling.
+- Explored and implemented logging best practices; AOP (Aspect-Oriented Programming).
+- Introduction to Spring Cloud.
+- Consolidated and harden the full Fundoo Notes App backend (error handling, logging, cross-cutting concerns).
 
-👉 [Day 18 - REST API Patterns, Global Exception Handling, AOP ](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-18/FundooNotesApp)
+👉 [Day 18 - REST API Patterns, Global Exception Handling, AOP](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-18/FundooNotesApp)
+
+---
+
+## 📅 Day 19 – Monolith vs Microservices & Spring Boot Microservices
+*(Date: 26-08-2026)*
+
+
+- Understood Architecture: Monolith vs Microservices.
+- Spring Boot Microservices - project structure and inter-service communication
+- API Gateway - purpose and routing
+- Begun decomposing the Fundoo Notes App into microservices 
+
+👉 [Day 19 - Monolith vs Microservices & Spring Boot Microservices](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-19/FundooNotesMicroservices)
 
 ---
