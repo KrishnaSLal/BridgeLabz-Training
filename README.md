@@ -1279,3 +1279,19 @@
 👉 [Day 18 - REST API Patterns, Global Exception Handling, AOP ](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-18/FundooNotesApp)
 
 ---
+
+
+## 📅 Day 19 – Monolith vs Microservices & Spring Boot Microservices
+*(Date: 26-08-2026)*
+
+
+- Understood Architecture: Monolith vs Microservices.
+- Spring Boot Microservices - project structure and inter-service communication.
+- API Gateway - purpose and routing.
+- Begun decomposing the Fundoo Notes App into microservices. 
+
+👉 [Day 19 - Monolith vs Microservices & Spring Boot Microservices](https://github.com/KrishnaSLal/BridgeLabz-Training/tree/refresher-training/refresher-training/Day-19/FundooNotesMicroservices)
+
+---
+
+
